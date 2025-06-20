@@ -1,5 +1,6 @@
 {
-  "name": "tanstack-start-example-basic",
+  "name": "factory83",
+  "description": "My web app using Tanstack Start framework",
   "private": true,
   "sideEffects": false,
   "type": "module",
