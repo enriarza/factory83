@@ -1,5 +1,6 @@
 {
   "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["storage_room"],
   "compilerOptions": {
     "strict": true,
     "esModuleInterop": true,
@@ -18,8 +19,5 @@
       "~/*": ["./src/*"]
     },
     "noEmit": true
-  },
-  "watchOptions": {
-    "excludeDirectories": ["storage_room"]
-  }
+  }  
 }
