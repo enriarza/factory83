@@ -18,5 +18,8 @@
       "~/*": ["./src/*"]
     },
     "noEmit": true
+  },
+  "watchOptions": {
+    "excludeDirectories": ["storage_room"]
   }
 }
