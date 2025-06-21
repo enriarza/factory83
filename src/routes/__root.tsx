@@ -53,10 +53,10 @@ export const Route = createRootRoute({
       { rel: 'icon', href: '/piano1-16x16.png' },
     ],
     scripts: [
-      {
-        src: '/customScript.js',
-        type: 'text/javascript',
-      },
+      // {
+      //   src: '/customScript.js',
+      //   type: 'text/javascript',
+      // },
     ],
   }),
   errorComponent: (props) => {
