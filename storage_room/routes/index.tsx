@@ -6,7 +6,7 @@ export const Route = createFileRoute('/')({
 function Home() {
   return (
     <div className="p-2">
-      <h3 className='text-7xl font-bold text-center py-8'>Factory83</h3>
+      <h3>Welcome Home!!!</h3>
     </div>
   )
 }
