@@ -1,4 +1,0 @@
-@import "tailwindcss";
-
-/* to set dark mode manually */
-@custom-variant dark (&:where(.dark, .dark *));
