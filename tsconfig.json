@@ -1,6 +1,6 @@
 {
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["storage_room"],
+  "exclude": ["storage_room/**"],
   "compilerOptions": {
     "strict": true,
     "esModuleInterop": true,

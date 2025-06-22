@@ -9,7 +9,7 @@ import { Outlet, useLocation } from "@tanstack/react-router";
 // import Darkness from "./components/darkness";
 // import Parallax from "./components/parallax";
 // import { useState } from "react";
-import { pathnameSplitter } from "./variations";
+import { pathnameSplitter } from "./-variations";
 // import favicon from "~/lib/functions/favicon";
 
 const RouteComponent = () => {
