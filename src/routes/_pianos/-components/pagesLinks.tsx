@@ -1,5 +1,5 @@
 //import { Link } from "@remix-run/react";
-import { pagesList } from "../variations";
+import { pagesList } from "../-variations";
 
 const PagesLinks = ({
   className,
