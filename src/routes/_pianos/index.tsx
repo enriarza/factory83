@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { createFileRoute } from '@tanstack/react-router'
-import Littletop from './-components/littletop';
+import Littletop from './-components/littletop'
 
-export const Route = createFileRoute('/_pianos/')({
-  component: RouteComponent,
-})
 
-function RouteComponent() {
+const RouteComponent = () => {
   const [show, setShow] = useState<boolean | null>(null);
   const [bodyHeight, setBodyHeight] = useState(0);
 
@@ -31,3 +28,7 @@ function RouteComponent() {
     </div>
   );
 }
+
+export const Route = createFileRoute('/_pianos/')({
+  component: RouteComponent,
+})
