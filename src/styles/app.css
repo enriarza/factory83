@@ -7,6 +7,7 @@
 /* 3. Plugins */
 /* IMPORTANT: Check if these plugins have Tailwind CSS v4 compatible versions. */
 /* @plugin "tw-animate-css"; */
+@import "tw-animate-css";
 @plugin "@headlessui/tailwindcss"; /* Added Headless UI plugin */
 
 /* 4. @font-face definitions ... */

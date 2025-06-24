@@ -7,7 +7,7 @@ import Navbar from "./-components/navbar";
 // import Share from "./components/share";
 import { Outlet, useLocation } from "@tanstack/react-router";
 // import Darkness from "./components/darkness";
-// import Parallax from "./components/parallax";
+import Parallax from "./-components/parallax";
 // import { useState } from "react";
 import { pathnameSplitter } from "./-variations";
 // import favicon from "~/lib/functions/favicon";
@@ -25,9 +25,9 @@ const RouteComponent = () => {
     >
       <Littletop setShow={setShow} />
       {/* <Navbar show={show} setShow={setShow} />
-      <Darkness show={show} />
+      <Darkness show={show} />*/}
       <Parallax bodyHeight={bodyHeight} />
-      <Outlet
+      {/*<Outlet
         context={{
           setBodyHeight,
           Share,
