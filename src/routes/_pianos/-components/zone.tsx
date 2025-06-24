@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { territories } from "../-variations";
+import { territories } from "./variations";
 
 const Zone = ({ urlActivity }: { urlActivity: string }) => {
   let verb = "";

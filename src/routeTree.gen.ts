@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PianosRouteImport } from './routes/_pianos'
 import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
+import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/index'
 
 const PianosRoute = PianosRouteImport.update({
   id: '/_pianos',
@@ -22,24 +23,32 @@ const PianosNuestraEmpresaIndexRoute =
     path: '/nuestra-empresa/',
     getParentRoute: () => PianosRoute,
   } as any)
+const PianosHomeIndexRoute = PianosHomeIndexRouteImport.update({
+  id: '/_home/',
+  path: '/',
+  getParentRoute: () => PianosRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
+  '/': typeof PianosHomeIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRoutesByTo {
+  '/': typeof PianosHomeIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_pianos': typeof PianosRouteWithChildren
+  '/_pianos/_home/': typeof PianosHomeIndexRoute
   '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/nuestra-empresa'
+  fullPaths: '/' | '/nuestra-empresa'
   fileRoutesByTo: FileRoutesByTo
-  to: '/nuestra-empresa'
-  id: '__root__' | '/_pianos' | '/_pianos/nuestra-empresa/'
+  to: '/' | '/nuestra-empresa'
+  id: '__root__' | '/_pianos' | '/_pianos/_home/' | '/_pianos/nuestra-empresa/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -62,14 +71,23 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosNuestraEmpresaIndexRouteImport
       parentRoute: typeof PianosRoute
     }
+    '/_pianos/_home/': {
+      id: '/_pianos/_home/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof PianosHomeIndexRouteImport
+      parentRoute: typeof PianosRoute
+    }
   }
 }
 
 interface PianosRouteChildren {
+  PianosHomeIndexRoute: typeof PianosHomeIndexRoute
   PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
 }
 
 const PianosRouteChildren: PianosRouteChildren = {
+  PianosHomeIndexRoute: PianosHomeIndexRoute,
   PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
 }
 

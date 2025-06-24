@@ -1,4 +1,4 @@
-import { territories } from "../-variations";
+import { territories } from "../-components/variations";
 import Image from "../../../components/custom/Image";
 
 const styles = {
