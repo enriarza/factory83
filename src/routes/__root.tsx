@@ -5,6 +5,7 @@ import {
   Outlet,
   Scripts,
   createRootRoute,
+  createRootRouteWithContext,
 } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import * as React from 'react'
@@ -13,7 +14,13 @@ import { NotFound } from '~/components/NotFound'
 import appCss from '~/styles/app.css?url'
 import { seo } from '~/utils/seo'
 
+interface MyRouterContext {
+  message: string
+}
+
 export const Route = createRootRoute({
+//const rootRoute = createRootRouteWithContext<MyRouterContext>()({
+  //context: {message: 'This is a message from the root route context'},
   head: () => ({
     meta: [
       {

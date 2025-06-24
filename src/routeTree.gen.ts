@@ -9,50 +9,75 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as PianosIndexRouteImport } from './routes/_pianos/index'
+import { Route as PianosRouteImport } from './routes/_pianos'
+import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
 
-const PianosIndexRoute = PianosIndexRouteImport.update({
-  id: '/_pianos/',
-  path: '/',
+const PianosRoute = PianosRouteImport.update({
+  id: '/_pianos',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PianosNuestraEmpresaIndexRoute =
+  PianosNuestraEmpresaIndexRouteImport.update({
+    id: '/nuestra-empresa/',
+    path: '/nuestra-empresa/',
+    getParentRoute: () => PianosRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
-  '/': typeof PianosIndexRoute
+  '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRoutesByTo {
-  '/': typeof PianosIndexRoute
+  '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
-  '/_pianos/': typeof PianosIndexRoute
+  '/_pianos': typeof PianosRouteWithChildren
+  '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/nuestra-empresa'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/_pianos/'
+  to: '/nuestra-empresa'
+  id: '__root__' | '/_pianos' | '/_pianos/nuestra-empresa/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-  PianosIndexRoute: typeof PianosIndexRoute
+  PianosRoute: typeof PianosRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/_pianos/': {
-      id: '/_pianos/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof PianosIndexRouteImport
+    '/_pianos': {
+      id: '/_pianos'
+      path: ''
+      fullPath: ''
+      preLoaderRoute: typeof PianosRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/_pianos/nuestra-empresa/': {
+      id: '/_pianos/nuestra-empresa/'
+      path: '/nuestra-empresa'
+      fullPath: '/nuestra-empresa'
+      preLoaderRoute: typeof PianosNuestraEmpresaIndexRouteImport
+      parentRoute: typeof PianosRoute
     }
   }
 }
 
+interface PianosRouteChildren {
+  PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
+}
+
+const PianosRouteChildren: PianosRouteChildren = {
+  PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
+}
+
+const PianosRouteWithChildren =
+  PianosRoute._addFileChildren(PianosRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
-  PianosIndexRoute: PianosIndexRoute,
+  PianosRoute: PianosRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
