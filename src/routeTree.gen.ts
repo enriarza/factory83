@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PianosRouteImport } from './routes/_pianos'
+import { Route as PianosTransporteIndexRouteImport } from './routes/_pianos/transporte/index'
 import { Route as PianosReparacionIndexRouteImport } from './routes/_pianos/reparacion/index'
 import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
 import { Route as PianosGraciasPorContactarIndexRouteImport } from './routes/_pianos/gracias-por-contactar/index'
@@ -19,6 +20,11 @@ import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/inde
 const PianosRoute = PianosRouteImport.update({
   id: '/_pianos',
   getParentRoute: () => rootRouteImport,
+} as any)
+const PianosTransporteIndexRoute = PianosTransporteIndexRouteImport.update({
+  id: '/transporte/',
+  path: '/transporte/',
+  getParentRoute: () => PianosRoute,
 } as any)
 const PianosReparacionIndexRoute = PianosReparacionIndexRouteImport.update({
   id: '/reparacion/',
@@ -54,6 +60,7 @@ export interface FileRoutesByFullPath {
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
   '/reparacion': typeof PianosReparacionIndexRoute
+  '/transporte': typeof PianosTransporteIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof PianosHomeIndexRoute
@@ -61,6 +68,7 @@ export interface FileRoutesByTo {
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
   '/reparacion': typeof PianosReparacionIndexRoute
+  '/transporte': typeof PianosTransporteIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -70,6 +78,7 @@ export interface FileRoutesById {
   '/_pianos/gracias-por-contactar/': typeof PianosGraciasPorContactarIndexRoute
   '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
   '/_pianos/reparacion/': typeof PianosReparacionIndexRoute
+  '/_pianos/transporte/': typeof PianosTransporteIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -79,6 +88,7 @@ export interface FileRouteTypes {
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
     | '/reparacion'
+    | '/transporte'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -86,6 +96,7 @@ export interface FileRouteTypes {
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
     | '/reparacion'
+    | '/transporte'
   id:
     | '__root__'
     | '/_pianos'
@@ -94,6 +105,7 @@ export interface FileRouteTypes {
     | '/_pianos/gracias-por-contactar/'
     | '/_pianos/nuestra-empresa/'
     | '/_pianos/reparacion/'
+    | '/_pianos/transporte/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -108,6 +120,13 @@ declare module '@tanstack/react-router' {
       fullPath: ''
       preLoaderRoute: typeof PianosRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/_pianos/transporte/': {
+      id: '/_pianos/transporte/'
+      path: '/transporte'
+      fullPath: '/transporte'
+      preLoaderRoute: typeof PianosTransporteIndexRouteImport
+      parentRoute: typeof PianosRoute
     }
     '/_pianos/reparacion/': {
       id: '/_pianos/reparacion/'
@@ -153,6 +172,7 @@ interface PianosRouteChildren {
   PianosGraciasPorContactarIndexRoute: typeof PianosGraciasPorContactarIndexRoute
   PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
   PianosReparacionIndexRoute: typeof PianosReparacionIndexRoute
+  PianosTransporteIndexRoute: typeof PianosTransporteIndexRoute
 }
 
 const PianosRouteChildren: PianosRouteChildren = {
@@ -161,6 +181,7 @@ const PianosRouteChildren: PianosRouteChildren = {
   PianosGraciasPorContactarIndexRoute: PianosGraciasPorContactarIndexRoute,
   PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
   PianosReparacionIndexRoute: PianosReparacionIndexRoute,
+  PianosTransporteIndexRoute: PianosTransporteIndexRoute,
 }
 
 const PianosRouteWithChildren =
