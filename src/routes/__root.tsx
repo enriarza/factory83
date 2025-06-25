@@ -13,14 +13,10 @@ import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary'
 import { NotFound } from '~/components/NotFound'
 import appCss from '~/styles/app.css?url'
 import { seo } from '~/utils/seo'
-
-interface MyRouterContext {
-  message: string
-}
+import type { RouterContext } from '../routerContext'
 
 export const Route = createRootRoute({
-//const rootRoute = createRootRouteWithContext<MyRouterContext>()({
-  //context: {message: 'This is a message from the root route context'},
+//export const rootRoute = createRootRouteWithContext<RouterContext>()({  
   head: () => ({
     meta: [
       {
@@ -99,3 +95,5 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     </html>
   )
 }
+
+

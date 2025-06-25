@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { createFileRoute } from '@tanstack/react-router'
 // import { type LinksFunction } from "@vercel/remix";
 import Footer from "./_pianos/-components/footer";
@@ -18,6 +18,24 @@ const RouteComponent = () => {
 
   const { pathname } = useLocation();
   const { activity, urlActivity } = pathnameSplitter(pathname);
+
+  useEffect(() => {
+    if (window) {
+      const body = document.body;
+      const html = document.documentElement;
+      const height =
+        Math.max(
+          body.scrollHeight,
+          body.offsetHeight,
+          html.clientHeight,
+          html.scrollHeight,
+          html.offsetHeight
+        ) - innerHeight;
+
+      setBodyHeight(height);
+    }
+  }, [setBodyHeight]);
+
   return (
     <div
       className="font-ubuntu_light"
