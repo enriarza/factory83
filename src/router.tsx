@@ -12,9 +12,9 @@ export function createRouter() {
   const router = createTanStackRouter({
     routeTree,
     //routeTree: rootRoute,
-    context: {
-      message: 'This is a message from the root route context',
-    },
+    // context: {
+    //   message: 'This is a message from the root route context',
+    // },
     defaultPreload: 'intent',
     defaultErrorComponent: DefaultCatchBoundary,
     defaultNotFoundComponent: () => <NotFound />,

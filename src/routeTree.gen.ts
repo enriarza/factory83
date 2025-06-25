@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as PianosRouteImport } from './routes/_pianos'
 import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
 import { Route as PianosGraciasPorContactarIndexRouteImport } from './routes/_pianos/gracias-por-contactar/index'
+import { Route as PianosAfinacionIndexRouteImport } from './routes/_pianos/afinacion/index'
 import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/index'
 
 const PianosRoute = PianosRouteImport.update({
@@ -30,6 +31,11 @@ const PianosGraciasPorContactarIndexRoute =
     path: '/gracias-por-contactar/',
     getParentRoute: () => PianosRoute,
   } as any)
+const PianosAfinacionIndexRoute = PianosAfinacionIndexRouteImport.update({
+  id: '/afinacion/',
+  path: '/afinacion/',
+  getParentRoute: () => PianosRoute,
+} as any)
 const PianosHomeIndexRoute = PianosHomeIndexRouteImport.update({
   id: '/_home/',
   path: '/',
@@ -38,11 +44,13 @@ const PianosHomeIndexRoute = PianosHomeIndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof PianosHomeIndexRoute
+  '/afinacion': typeof PianosAfinacionIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof PianosHomeIndexRoute
+  '/afinacion': typeof PianosAfinacionIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
 }
@@ -50,18 +58,20 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_pianos': typeof PianosRouteWithChildren
   '/_pianos/_home/': typeof PianosHomeIndexRoute
+  '/_pianos/afinacion/': typeof PianosAfinacionIndexRoute
   '/_pianos/gracias-por-contactar/': typeof PianosGraciasPorContactarIndexRoute
   '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/gracias-por-contactar' | '/nuestra-empresa'
+  fullPaths: '/' | '/afinacion' | '/gracias-por-contactar' | '/nuestra-empresa'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/gracias-por-contactar' | '/nuestra-empresa'
+  to: '/' | '/afinacion' | '/gracias-por-contactar' | '/nuestra-empresa'
   id:
     | '__root__'
     | '/_pianos'
     | '/_pianos/_home/'
+    | '/_pianos/afinacion/'
     | '/_pianos/gracias-por-contactar/'
     | '/_pianos/nuestra-empresa/'
   fileRoutesById: FileRoutesById
@@ -93,6 +103,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosGraciasPorContactarIndexRouteImport
       parentRoute: typeof PianosRoute
     }
+    '/_pianos/afinacion/': {
+      id: '/_pianos/afinacion/'
+      path: '/afinacion'
+      fullPath: '/afinacion'
+      preLoaderRoute: typeof PianosAfinacionIndexRouteImport
+      parentRoute: typeof PianosRoute
+    }
     '/_pianos/_home/': {
       id: '/_pianos/_home/'
       path: '/'
@@ -105,12 +122,14 @@ declare module '@tanstack/react-router' {
 
 interface PianosRouteChildren {
   PianosHomeIndexRoute: typeof PianosHomeIndexRoute
+  PianosAfinacionIndexRoute: typeof PianosAfinacionIndexRoute
   PianosGraciasPorContactarIndexRoute: typeof PianosGraciasPorContactarIndexRoute
   PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
 }
 
 const PianosRouteChildren: PianosRouteChildren = {
   PianosHomeIndexRoute: PianosHomeIndexRoute,
+  PianosAfinacionIndexRoute: PianosAfinacionIndexRoute,
   PianosGraciasPorContactarIndexRoute: PianosGraciasPorContactarIndexRoute,
   PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
 }
