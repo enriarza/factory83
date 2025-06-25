@@ -6,7 +6,7 @@ import Main from "./-main";
 import Header from "./-header";
 import Share from "../-components/share";
 //import { pathnameSplitter } from "../_pianos/variations";
-import { useEffect } from "react";
+//import { useEffect } from "react";
 
 // export const meta: MetaFunction = () => {
 //   return [

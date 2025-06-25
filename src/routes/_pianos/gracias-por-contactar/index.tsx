@@ -4,7 +4,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import Main from "./-main";
 import Header from "./-header";
 import Share from "../-components/share";
-import { useEffect } from "react";
+//import { useEffect } from "react";
 
 // export const meta: MetaFunction = () => [
 //   {

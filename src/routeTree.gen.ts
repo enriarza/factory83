@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PianosRouteImport } from './routes/_pianos'
+import { Route as PianosReparacionIndexRouteImport } from './routes/_pianos/reparacion/index'
 import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
 import { Route as PianosGraciasPorContactarIndexRouteImport } from './routes/_pianos/gracias-por-contactar/index'
 import { Route as PianosAfinacionIndexRouteImport } from './routes/_pianos/afinacion/index'
@@ -18,6 +19,11 @@ import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/inde
 const PianosRoute = PianosRouteImport.update({
   id: '/_pianos',
   getParentRoute: () => rootRouteImport,
+} as any)
+const PianosReparacionIndexRoute = PianosReparacionIndexRouteImport.update({
+  id: '/reparacion/',
+  path: '/reparacion/',
+  getParentRoute: () => PianosRoute,
 } as any)
 const PianosNuestraEmpresaIndexRoute =
   PianosNuestraEmpresaIndexRouteImport.update({
@@ -47,12 +53,14 @@ export interface FileRoutesByFullPath {
   '/afinacion': typeof PianosAfinacionIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
+  '/reparacion': typeof PianosReparacionIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof PianosHomeIndexRoute
   '/afinacion': typeof PianosAfinacionIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
+  '/reparacion': typeof PianosReparacionIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -61,12 +69,23 @@ export interface FileRoutesById {
   '/_pianos/afinacion/': typeof PianosAfinacionIndexRoute
   '/_pianos/gracias-por-contactar/': typeof PianosGraciasPorContactarIndexRoute
   '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
+  '/_pianos/reparacion/': typeof PianosReparacionIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/afinacion' | '/gracias-por-contactar' | '/nuestra-empresa'
+  fullPaths:
+    | '/'
+    | '/afinacion'
+    | '/gracias-por-contactar'
+    | '/nuestra-empresa'
+    | '/reparacion'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/afinacion' | '/gracias-por-contactar' | '/nuestra-empresa'
+  to:
+    | '/'
+    | '/afinacion'
+    | '/gracias-por-contactar'
+    | '/nuestra-empresa'
+    | '/reparacion'
   id:
     | '__root__'
     | '/_pianos'
@@ -74,6 +93,7 @@ export interface FileRouteTypes {
     | '/_pianos/afinacion/'
     | '/_pianos/gracias-por-contactar/'
     | '/_pianos/nuestra-empresa/'
+    | '/_pianos/reparacion/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -88,6 +108,13 @@ declare module '@tanstack/react-router' {
       fullPath: ''
       preLoaderRoute: typeof PianosRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/_pianos/reparacion/': {
+      id: '/_pianos/reparacion/'
+      path: '/reparacion'
+      fullPath: '/reparacion'
+      preLoaderRoute: typeof PianosReparacionIndexRouteImport
+      parentRoute: typeof PianosRoute
     }
     '/_pianos/nuestra-empresa/': {
       id: '/_pianos/nuestra-empresa/'
@@ -125,6 +152,7 @@ interface PianosRouteChildren {
   PianosAfinacionIndexRoute: typeof PianosAfinacionIndexRoute
   PianosGraciasPorContactarIndexRoute: typeof PianosGraciasPorContactarIndexRoute
   PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
+  PianosReparacionIndexRoute: typeof PianosReparacionIndexRoute
 }
 
 const PianosRouteChildren: PianosRouteChildren = {
@@ -132,6 +160,7 @@ const PianosRouteChildren: PianosRouteChildren = {
   PianosAfinacionIndexRoute: PianosAfinacionIndexRoute,
   PianosGraciasPorContactarIndexRoute: PianosGraciasPorContactarIndexRoute,
   PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
+  PianosReparacionIndexRoute: PianosReparacionIndexRoute,
 }
 
 const PianosRouteWithChildren =
