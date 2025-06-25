@@ -14,6 +14,7 @@ import { Route as PianosTransporteIndexRouteImport } from './routes/_pianos/tran
 import { Route as PianosReparacionIndexRouteImport } from './routes/_pianos/reparacion/index'
 import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
 import { Route as PianosGraciasPorContactarIndexRouteImport } from './routes/_pianos/gracias-por-contactar/index'
+import { Route as PianosContactaIndexRouteImport } from './routes/_pianos/contacta/index'
 import { Route as PianosAfinacionIndexRouteImport } from './routes/_pianos/afinacion/index'
 import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/index'
 
@@ -43,6 +44,11 @@ const PianosGraciasPorContactarIndexRoute =
     path: '/gracias-por-contactar/',
     getParentRoute: () => PianosRoute,
   } as any)
+const PianosContactaIndexRoute = PianosContactaIndexRouteImport.update({
+  id: '/contacta/',
+  path: '/contacta/',
+  getParentRoute: () => PianosRoute,
+} as any)
 const PianosAfinacionIndexRoute = PianosAfinacionIndexRouteImport.update({
   id: '/afinacion/',
   path: '/afinacion/',
@@ -57,6 +63,7 @@ const PianosHomeIndexRoute = PianosHomeIndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof PianosHomeIndexRoute
   '/afinacion': typeof PianosAfinacionIndexRoute
+  '/contacta': typeof PianosContactaIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
   '/reparacion': typeof PianosReparacionIndexRoute
@@ -65,6 +72,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof PianosHomeIndexRoute
   '/afinacion': typeof PianosAfinacionIndexRoute
+  '/contacta': typeof PianosContactaIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
   '/reparacion': typeof PianosReparacionIndexRoute
@@ -75,6 +83,7 @@ export interface FileRoutesById {
   '/_pianos': typeof PianosRouteWithChildren
   '/_pianos/_home/': typeof PianosHomeIndexRoute
   '/_pianos/afinacion/': typeof PianosAfinacionIndexRoute
+  '/_pianos/contacta/': typeof PianosContactaIndexRoute
   '/_pianos/gracias-por-contactar/': typeof PianosGraciasPorContactarIndexRoute
   '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
   '/_pianos/reparacion/': typeof PianosReparacionIndexRoute
@@ -85,6 +94,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/afinacion'
+    | '/contacta'
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
     | '/reparacion'
@@ -93,6 +103,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/afinacion'
+    | '/contacta'
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
     | '/reparacion'
@@ -102,6 +113,7 @@ export interface FileRouteTypes {
     | '/_pianos'
     | '/_pianos/_home/'
     | '/_pianos/afinacion/'
+    | '/_pianos/contacta/'
     | '/_pianos/gracias-por-contactar/'
     | '/_pianos/nuestra-empresa/'
     | '/_pianos/reparacion/'
@@ -149,6 +161,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosGraciasPorContactarIndexRouteImport
       parentRoute: typeof PianosRoute
     }
+    '/_pianos/contacta/': {
+      id: '/_pianos/contacta/'
+      path: '/contacta'
+      fullPath: '/contacta'
+      preLoaderRoute: typeof PianosContactaIndexRouteImport
+      parentRoute: typeof PianosRoute
+    }
     '/_pianos/afinacion/': {
       id: '/_pianos/afinacion/'
       path: '/afinacion'
@@ -169,6 +188,7 @@ declare module '@tanstack/react-router' {
 interface PianosRouteChildren {
   PianosHomeIndexRoute: typeof PianosHomeIndexRoute
   PianosAfinacionIndexRoute: typeof PianosAfinacionIndexRoute
+  PianosContactaIndexRoute: typeof PianosContactaIndexRoute
   PianosGraciasPorContactarIndexRoute: typeof PianosGraciasPorContactarIndexRoute
   PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
   PianosReparacionIndexRoute: typeof PianosReparacionIndexRoute
@@ -178,6 +198,7 @@ interface PianosRouteChildren {
 const PianosRouteChildren: PianosRouteChildren = {
   PianosHomeIndexRoute: PianosHomeIndexRoute,
   PianosAfinacionIndexRoute: PianosAfinacionIndexRoute,
+  PianosContactaIndexRoute: PianosContactaIndexRoute,
   PianosGraciasPorContactarIndexRoute: PianosGraciasPorContactarIndexRoute,
   PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
   PianosReparacionIndexRoute: PianosReparacionIndexRoute,
