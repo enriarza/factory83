@@ -6,7 +6,7 @@ import Littletop from "./_pianos/-components/littletop";
 import Navbar from "./_pianos/-components/navbar";
 // import Share from "./components/share";
 import { Outlet, useLocation } from "@tanstack/react-router";
-// import Darkness from "./components/darkness";
+import Darkness from "./_pianos/-components/darkness";
 import Parallax from "./_pianos/-components/parallax";
 // import { useState } from "react";
 import { pathnameSplitter } from "./_pianos/-components/variations";
@@ -42,8 +42,8 @@ const RouteComponent = () => {
       style={{ WebkitTapHighlightColor: "transparent" }}
     >
       <Littletop setShow={setShow} />
-      {/* <Navbar show={show} setShow={setShow} />
-      <Darkness show={show} />*/}
+      <Navbar show={show} setShow={setShow} />
+      <Darkness show={show} />
       <Parallax bodyHeight={bodyHeight} />
       <Outlet
         // context={{
