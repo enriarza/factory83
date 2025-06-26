@@ -19,6 +19,8 @@ const RouteComponent = () => {
   const { pathname } = useLocation();
   const { activity, urlActivity } = pathnameSplitter(pathname);
 
+  console.log("show", show)
+
   useEffect(() => {
     if (window) {
       const body = document.body;
@@ -38,17 +40,16 @@ const RouteComponent = () => {
 
   return (
     <div
-      className="font-ubuntu_light"
+      className="font-ubuntu-light"
       style={{ WebkitTapHighlightColor: "transparent" }}
     >
       <Littletop setShow={setShow} />
-      {/* <Navbar show={show} setShow={setShow} /> */}
-      <Navbar show={true} setShow={setShow} />
+      <Navbar show={show} setShow={setShow} />      
       {/* <Darkness show={show} /> */}
-      <Darkness show={true} />
-      <Parallax bodyHeight={bodyHeight} />
+      {/* <Darkness show={true} /> */}
+      {/* <Parallax bodyHeight={bodyHeight} />
       <Outlet />
-      <Footer activity={activity} urlActivity={urlActivity} /> 
+      <Footer activity={activity} urlActivity={urlActivity} />  */}
     </div>
   );
 };

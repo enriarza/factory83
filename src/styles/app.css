@@ -1,30 +1,39 @@
-/* 1. Import Tailwind CSS v4 */
-@import "tailwindcss";
-
-/* 1.5: Import Tailwind CSS v4 extensions */
-@import "tw-animate-css";
-
-/* 2. Plugins */
-/* IMPORTANT: Check if these plugins have Tailwind CSS v4 compatible versions. */
-@plugin "@headlessui/tailwindcss"; /* Added Headless UI plugin */
-
-/* 3. Dark Mode: "selector" strategy */
-@custom-variant dark (&:where(.dark, .dark *));
-
-/* 4. @font-face definitions ... */
+/* @font-face definitions */
 @font-face {
   font-family: "UBUNTU_LIGHT";
   src: url("/fonts/ubuntu/Ubuntu-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "UBUNTU_MEDIUM";
-  src: url("/fonts/ubuntu/Ubuntu-Medium.woff2") format("woff2");
+  src: url("/fonts/ubuntu/Ubuntu-Medium.woff2") format("woff2");  
+  font-weight: normal;
+  font-style: normal;
   font-display: swap;
 }
 
-/* 5. Custom Keyframes ... */
+
+/* Import Tailwind CSS v4 */
+@import "tailwindcss";
+
+
+/* Import Tailwind CSS v4 extensions */
+@import "tw-animate-css";
+
+
+/* Plugins */
+/* IMPORTANT: Check if these plugins have Tailwind CSS v4 compatible versions. */
+@plugin "@headlessui/tailwindcss"; /* Added Headless UI plugin */
+
+
+/* Dark Mode: "selector" strategy */
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* Custom Keyframes ... */
 @keyframes darknessIn {
   0% {
     opacity: 0;
@@ -36,7 +45,34 @@
   }
 }
 
-/* ... (other keyframes) ... */
+@keyframes darknessOut {
+  0% {
+    opacity: 0.5;
+    width: 100vw;
+  }
+  100% {
+    opacity: 0;
+    width: 100vw;
+  }
+}
+
+@keyframes navbarIn {  
+  0% { 
+    margin-left: -320px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes navbarOut {
+  0% { 
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -320px;
+  }
+}
 
 @keyframes fade {
   0% {
@@ -53,18 +89,19 @@
   }
 }
 
-/* 6. Theme Extensions ... */
+/* Theme Extensions ... */
 @theme {
   /* FontFamily */
-  --font-family-ubuntu-light: "UBUNTU_LIGHT", "sans-serif";
-  --font-family-ubuntu-medium: "UBUNTU_MEDIUM", "sans-serif";
+  --font-ubuntu-light: "UBUNTU_LIGHT", "sans-serif";
+  --font-ubuntu-medium: "UBUNTU_MEDIUM", "sans-serif";
 
-  /* Animation Utilities */
-  --animation-darkness-in: darknessIn 0.5s forwards;
-  --animation-darkness-out: darknessOut 0.5s;
-  --animation-navbar-in: navbarIn 0.5s forwards;
-  --animation-navbar-out: navbarOut 0.5s;
-  --animation-fade-on: fade 8s both;
+  /* Animation Utilities */  
+  --animate-darkness-in: darkenessIn 0.5s forwards;
+  --animate-darkness-out: darknessOut 0.5s;
+  --animate-navbar-in: navbarIn 0.5s forwards;
+  --animate-navbar-out: navbarOut 0.5s;
+  --animate-fade-on: fade 8s both;
+  
 
   /* Optional: @headlessui/tailwindcss might have its own theme options.
      If it uses CSS variables for configuration in v4, you might add them here.

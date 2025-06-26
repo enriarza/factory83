@@ -1,6 +1,6 @@
 const Header = () => (
   <header className="h-auto text-white pt-5 m-auto max-w-5xl bg-[#00000080] text-center">
-    <h1 className="mt-24 mb-5 mx-auto font-ubuntu_medium text-5xl tracking-wide text-[#ffffffcc] w-11/12 dark:text-[#cccccccc]">
+    <h1 className="mt-24 mb-5 mx-auto font-ubuntu-medium text-5xl tracking-wide text-[#ffffffcc] w-11/12 dark:text-[#cccccccc]">    
       Afinación, Reparación y Transporte de Pianos
     </h1>
     <p className="text-base tracking-wider w-11/12 m-auto sm:text-xl dark:text-[#ccc]">

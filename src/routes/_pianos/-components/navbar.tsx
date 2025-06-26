@@ -14,15 +14,15 @@ const Navbar = ({
     onClick={() => setShow(false)}
     onKeyDown={() => setShow(false)}
     role="button"
-    tabIndex={0}
+    tabIndex={0}    
     className={`fixed h-full w-80 z-40 bg-[#780a0a] overflow-x-hidden -mt-2.5 text-left -m-80 ${
       show === null
         ? "-m-80"
         : show === true
-        ? "animate-navbarIn"
-        : "animate-navbarOut"
-    }
-      `}
+        ? "animate-navbar-in"
+        : "animate-navbar-out"        
+      }
+    `}    
   >
     <nav>
       <button
