@@ -38,20 +38,23 @@ const pathnameSplitter = (pathname: string) => {
   const urlActivity = pathname.slice(1, pathname.indexOf("-"));
   let activity;
   switch (urlActivity) {
-    case "afinaci%C3%B3n":
+    case "afinaci%F3n":
+      activity = "Afinación";
+      break;
+    case "afinación":
       activity = "Afinación";
       break;
     case "afinacion":
-      activity = "Afinacion";
+      activity = "Afinación";
       break;
     case "afinador":
       activity = "Afinador";
       break;
-    case "reparaci%C3%B3n":
+    case "reparación":
       activity = "Reparación";
       break;
     case "reparacion":
-      activity = "Reparacion";
+      activity = "Reparación";
       break;
     case "transporte":
       activity = "Transporte";

@@ -2,10 +2,10 @@ import { useLocation } from "@tanstack/react-router";
 import { JSX, useEffect } from "react";
 //import type { MetaFunction } from "@vercel/remix";
 import { createFileRoute } from '@tanstack/react-router'
-import Header from "./-header";
-import Main from "./-main";
-import Share from "../-components/share";
-import { pathnameSplitter } from "../-components/variations";
+import Header from "./_afinacion/-header";
+import Main from "./_afinacion/-main";
+import Share from "./-components/share";
+import { pathnameSplitter } from "./-components/variations";
 
 // export const meta: MetaFunction = ({ location }) => {
 //   const { place, activity } = pathnameSplitter(location.pathname);
@@ -69,7 +69,7 @@ import { pathnameSplitter } from "../-components/variations";
 //   ];
 // };
 
-const Afinacion = () => {
+export const Afinacion = () => {
   // const { setBodyHeight, Share } = useOutletContext<{
   //   setBodyHeight: React.Dispatch<React.SetStateAction<number>>;
   //   Share: () => JSX.Element;
@@ -103,6 +103,6 @@ const Afinacion = () => {
   );
 };
 
-export const Route = createFileRoute('/_pianos/afinacion/')({
+export const Route = createFileRoute('/_pianos/_afinacion')({
   component: Afinacion,
 })

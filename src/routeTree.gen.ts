@@ -10,17 +10,24 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PianosRouteImport } from './routes/_pianos'
+import { Route as PianosAfinacionRouteImport } from './routes/_pianos/_afinacion'
 import { Route as PianosTransporteIndexRouteImport } from './routes/_pianos/transporte/index'
 import { Route as PianosReparacionIndexRouteImport } from './routes/_pianos/reparacion/index'
 import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
 import { Route as PianosGraciasPorContactarIndexRouteImport } from './routes/_pianos/gracias-por-contactar/index'
 import { Route as PianosContactaIndexRouteImport } from './routes/_pianos/contacta/index'
-import { Route as PianosAfinacionIndexRouteImport } from './routes/_pianos/afinacion/index'
 import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/index'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnAlavaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava'
+import { Route as PianosAfinacionvariationsAfinacionDePianosRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos'
 
 const PianosRoute = PianosRouteImport.update({
   id: '/_pianos',
   getParentRoute: () => rootRouteImport,
+} as any)
+const PianosAfinacionRoute = PianosAfinacionRouteImport.update({
+  id: '/_afinacion',
+  getParentRoute: () => PianosRoute,
 } as any)
 const PianosTransporteIndexRoute = PianosTransporteIndexRouteImport.update({
   id: '/transporte/',
@@ -49,75 +56,102 @@ const PianosContactaIndexRoute = PianosContactaIndexRouteImport.update({
   path: '/contacta/',
   getParentRoute: () => PianosRoute,
 } as any)
-const PianosAfinacionIndexRoute = PianosAfinacionIndexRouteImport.update({
-  id: '/afinacion/',
-  path: '/afinacion/',
-  getParentRoute: () => PianosRoute,
-} as any)
 const PianosHomeIndexRoute = PianosHomeIndexRouteImport.update({
   id: '/_home/',
   path: '/',
   getParentRoute: () => PianosRoute,
 } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosRouteImport.update({
+    id: '/(variations)/afinación-de-pianos',
+    path: '/afinación-de-pianos',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnAlavaRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-alava',
+    path: '/afinacion-de-pianos-en-alava',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosRoute =
+  PianosAfinacionvariationsAfinacionDePianosRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos',
+    path: '/afinacion-de-pianos',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof PianosHomeIndexRoute
-  '/afinacion': typeof PianosAfinacionIndexRoute
   '/contacta': typeof PianosContactaIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
   '/reparacion': typeof PianosReparacionIndexRoute
   '/transporte': typeof PianosTransporteIndexRoute
+  '/afinacion-de-pianos': typeof PianosAfinacionvariationsAfinacionDePianosRoute
+  '/afinacion-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  '/afinación-de-pianos': typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
 }
 export interface FileRoutesByTo {
   '/': typeof PianosHomeIndexRoute
-  '/afinacion': typeof PianosAfinacionIndexRoute
   '/contacta': typeof PianosContactaIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
   '/reparacion': typeof PianosReparacionIndexRoute
   '/transporte': typeof PianosTransporteIndexRoute
+  '/afinacion-de-pianos': typeof PianosAfinacionvariationsAfinacionDePianosRoute
+  '/afinacion-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  '/afinación-de-pianos': typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_pianos': typeof PianosRouteWithChildren
+  '/_pianos/_afinacion': typeof PianosAfinacionRouteWithChildren
   '/_pianos/_home/': typeof PianosHomeIndexRoute
-  '/_pianos/afinacion/': typeof PianosAfinacionIndexRoute
   '/_pianos/contacta/': typeof PianosContactaIndexRoute
   '/_pianos/gracias-por-contactar/': typeof PianosGraciasPorContactarIndexRoute
   '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
   '/_pianos/reparacion/': typeof PianosReparacionIndexRoute
   '/_pianos/transporte/': typeof PianosTransporteIndexRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos': typeof PianosAfinacionvariationsAfinacionDePianosRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos': typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/afinacion'
     | '/contacta'
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
     | '/reparacion'
     | '/transporte'
+    | '/afinacion-de-pianos'
+    | '/afinacion-de-pianos-en-alava'
+    | '/afinación-de-pianos'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/afinacion'
     | '/contacta'
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
     | '/reparacion'
     | '/transporte'
+    | '/afinacion-de-pianos'
+    | '/afinacion-de-pianos-en-alava'
+    | '/afinación-de-pianos'
   id:
     | '__root__'
     | '/_pianos'
+    | '/_pianos/_afinacion'
     | '/_pianos/_home/'
-    | '/_pianos/afinacion/'
     | '/_pianos/contacta/'
     | '/_pianos/gracias-por-contactar/'
     | '/_pianos/nuestra-empresa/'
     | '/_pianos/reparacion/'
     | '/_pianos/transporte/'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -132,6 +166,13 @@ declare module '@tanstack/react-router' {
       fullPath: ''
       preLoaderRoute: typeof PianosRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/_pianos/_afinacion': {
+      id: '/_pianos/_afinacion'
+      path: ''
+      fullPath: ''
+      preLoaderRoute: typeof PianosAfinacionRouteImport
+      parentRoute: typeof PianosRoute
     }
     '/_pianos/transporte/': {
       id: '/_pianos/transporte/'
@@ -168,13 +209,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosContactaIndexRouteImport
       parentRoute: typeof PianosRoute
     }
-    '/_pianos/afinacion/': {
-      id: '/_pianos/afinacion/'
-      path: '/afinacion'
-      fullPath: '/afinacion'
-      preLoaderRoute: typeof PianosAfinacionIndexRouteImport
-      parentRoute: typeof PianosRoute
-    }
     '/_pianos/_home/': {
       id: '/_pianos/_home/'
       path: '/'
@@ -182,12 +216,52 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosHomeIndexRouteImport
       parentRoute: typeof PianosRoute
     }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos'
+      path: '/afinación-de-pianos'
+      fullPath: '/afinación-de-pianos'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava'
+      path: '/afinacion-de-pianos-en-alava'
+      fullPath: '/afinacion-de-pianos-en-alava'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos'
+      path: '/afinacion-de-pianos'
+      fullPath: '/afinacion-de-pianos'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
   }
 }
 
+interface PianosAfinacionRouteChildren {
+  PianosAfinacionvariationsAfinacionDePianosRoute: typeof PianosAfinacionvariationsAfinacionDePianosRoute
+  PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
+}
+
+const PianosAfinacionRouteChildren: PianosAfinacionRouteChildren = {
+  PianosAfinacionvariationsAfinacionDePianosRoute:
+    PianosAfinacionvariationsAfinacionDePianosRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosRoute,
+}
+
+const PianosAfinacionRouteWithChildren = PianosAfinacionRoute._addFileChildren(
+  PianosAfinacionRouteChildren,
+)
+
 interface PianosRouteChildren {
+  PianosAfinacionRoute: typeof PianosAfinacionRouteWithChildren
   PianosHomeIndexRoute: typeof PianosHomeIndexRoute
-  PianosAfinacionIndexRoute: typeof PianosAfinacionIndexRoute
   PianosContactaIndexRoute: typeof PianosContactaIndexRoute
   PianosGraciasPorContactarIndexRoute: typeof PianosGraciasPorContactarIndexRoute
   PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
@@ -196,8 +270,8 @@ interface PianosRouteChildren {
 }
 
 const PianosRouteChildren: PianosRouteChildren = {
+  PianosAfinacionRoute: PianosAfinacionRouteWithChildren,
   PianosHomeIndexRoute: PianosHomeIndexRoute,
-  PianosAfinacionIndexRoute: PianosAfinacionIndexRoute,
   PianosContactaIndexRoute: PianosContactaIndexRoute,
   PianosGraciasPorContactarIndexRoute: PianosGraciasPorContactarIndexRoute,
   PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
