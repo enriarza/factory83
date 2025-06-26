@@ -17,9 +17,7 @@ const RouteComponent = () => {
   const [bodyHeight, setBodyHeight] = useState(0);
 
   const { pathname } = useLocation();
-  const { activity, urlActivity } = pathnameSplitter(pathname);
-
-  console.log("show", show)
+  const { activity, urlActivity } = pathnameSplitter(pathname);  
 
   useEffect(() => {
     if (window) {

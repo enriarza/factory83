@@ -42,7 +42,7 @@ const References = () => {
               key={`mobile-${name}`}
               className={`py-3 duration-300 text-black hover:text-[#ffa500] dark:text-[#aaa] dark:hover:text-[#fff]`}
               to={`/pdfImageViewer/${name}/${n}/${ext}`}
-              prefetch="viewport"
+              preload="viewport"
             >
               {title}
             </Link>
@@ -62,16 +62,17 @@ const References = () => {
   return (
     <div className="">
       <div className="grid grid-cols-3 sm:grid-cols-4 text-center pb-5 pt-16 lg:pb-0 lg:-mb-4">
-        {/* {docs.map(({ title, name }) => (
+        {docs.map(({ title, name }) => (
           <Link
             key={`browser-${name}`}
-            to={`/docs/${name}/${name}.pdf`}
+            to={`/docs/${name}/${name}.pdf` as any}
+            //reloadDocument
             reloadDocument
             className={`py-3 duration-300 text-black hover:text-[#ffa500] dark:text-[#aaa] dark:hover:text-[#fff]`}
           >
             {title}
           </Link>
-        ))} */}
+        ))}
         <div className="sm:order-5"></div>
         {/* <Link
         className="order-5 sm:order-4 py-3"
