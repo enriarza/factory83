@@ -1,4 +1,4 @@
-//import { Link } from "@remix-run/react";
+import { Link } from "@tanstack/react-router";
 import { pagesList } from "./variations";
 
 const PagesLinks = ({
@@ -16,11 +16,11 @@ const PagesLinks = ({
         Menú
       </h3>
     )}
-    {/* <ul className={uStyle}>
+    <ul className={uStyle}>
       {Object.entries(pagesList).map((page: string[], index: number) => (
         <li key={`page-${index}`} className="list-none">
           <Link
-            prefetch="viewport"
+            preload="viewport"
             to={page[1]}
             className={`text-2xl tracking-wider block duration-300 ${aStyle}`}
           >
@@ -28,7 +28,7 @@ const PagesLinks = ({
           </Link>
         </li>
       ))}
-    </ul> */}
+    </ul>
   </div>
 );
 
