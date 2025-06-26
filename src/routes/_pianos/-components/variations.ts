@@ -38,9 +38,9 @@ const pathnameSplitter = (pathname: string) => {
   const urlActivity = pathname.slice(1, pathname.indexOf("-"));
   let activity;
   switch (urlActivity) {
-    case "afinaci%F3n":
-      activity = "Afinación";
-      break;
+    // case "afinaci%F3n":
+    //   activity = "Afinación";
+    //   break;
     case "afinación":
       activity = "Afinación";
       break;
