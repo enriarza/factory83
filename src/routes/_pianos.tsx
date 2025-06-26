@@ -45,11 +45,10 @@ const RouteComponent = () => {
     >
       <Littletop setShow={setShow} />
       <Navbar show={show} setShow={setShow} />      
-      {/* <Darkness show={show} /> */}
-      {/* <Darkness show={true} /> */}
-      {/* <Parallax bodyHeight={bodyHeight} />
+      <Darkness show={show} />      
+      <Parallax bodyHeight={bodyHeight} />
       <Outlet />
-      <Footer activity={activity} urlActivity={urlActivity} />  */}
+      <Footer activity={activity} urlActivity={urlActivity} /> 
     </div>
   );
 };

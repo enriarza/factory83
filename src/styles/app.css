@@ -37,23 +37,23 @@
 @keyframes darknessIn {
   0% {
     opacity: 0;
-    width: 100vw;
+    /* width: 100vw; */
   }
   100% {
     opacity: 0.5;
-    width: 100vw;
+    /* width: 100vw; */
   }
 }
 
 @keyframes darknessOut {
   0% {
     opacity: 0.5;
-    width: 100vw;
+    /* width: 100vw; */
   }
   100% {
     opacity: 0;
-    width: 100vw;
-  }
+    /* width: 100vw; */
+  } 
 }
 
 @keyframes navbarIn {  
@@ -96,7 +96,7 @@
   --font-ubuntu-medium: "UBUNTU_MEDIUM", "sans-serif";
 
   /* Animation Utilities */  
-  --animate-darkness-in: darkenessIn 0.5s forwards;
+  --animate-darkness-in: darknessIn 0.5s forwards;
   --animate-darkness-out: darknessOut 0.5s;
   --animate-navbar-in: navbarIn 0.5s forwards;
   --animate-navbar-out: navbarOut 0.5s;
