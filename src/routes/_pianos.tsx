@@ -47,20 +47,11 @@ const RouteComponent = () => {
       {/* <Darkness show={show} /> */}
       <Darkness show={true} />
       <Parallax bodyHeight={bodyHeight} />
-      <Outlet
-        // context={{
-        //   setBodyHeight,
-        //   Share,
-        // }}
-      />
+      <Outlet />
       <Footer activity={activity} urlActivity={urlActivity} /> 
     </div>
   );
 };
-
-// const RouteComponent = () => (
-//   <h1>_pianos.tsx file</h1>
-// )
 
 export const Route = createFileRoute('/_pianos')({
   component: RouteComponent,
