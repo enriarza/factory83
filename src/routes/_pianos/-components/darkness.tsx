@@ -1,6 +1,6 @@
 const Darkness = ({ show }: { show: boolean | null }) => (
   <div
-    className={`darkness h-screen fixed bg-[#080808] z-20 ${
+    className={`h-screen fixed bg-[#080808] z-20 ${
       show === null
         ? "opacity-0 w-0"
         : show === true
@@ -9,5 +9,11 @@ const Darkness = ({ show }: { show: boolean | null }) => (
     }`}
   ></div>
 );
+
+// const Darkness = ({ show }: { show: boolean | null }) => (
+//   <div
+//     className={`h-screen fixed bg-[blue] z-20`}
+//   ></div>
+// );
 
 export default Darkness;

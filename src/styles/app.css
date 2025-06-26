@@ -1,14 +1,15 @@
 /* 1. Import Tailwind CSS v4 */
 @import "tailwindcss";
 
-/* 2. Dark Mode: "selector" strategy */
-@custom-variant dark (&:where(.dark, .dark *));
-
-/* 3. Plugins */
-/* IMPORTANT: Check if these plugins have Tailwind CSS v4 compatible versions. */
-/* @plugin "tw-animate-css"; */
+/* 1.5: Import Tailwind CSS v4 extensions */
 @import "tw-animate-css";
+
+/* 2. Plugins */
+/* IMPORTANT: Check if these plugins have Tailwind CSS v4 compatible versions. */
 @plugin "@headlessui/tailwindcss"; /* Added Headless UI plugin */
+
+/* 3. Dark Mode: "selector" strategy */
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* 4. @font-face definitions ... */
 @font-face {

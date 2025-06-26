@@ -42,8 +42,10 @@ const RouteComponent = () => {
       style={{ WebkitTapHighlightColor: "transparent" }}
     >
       <Littletop setShow={setShow} />
-      <Navbar show={show} setShow={setShow} />
-      <Darkness show={show} />
+      {/* <Navbar show={show} setShow={setShow} /> */}
+      <Navbar show={true} setShow={setShow} />
+      {/* <Darkness show={show} /> */}
+      <Darkness show={true} />
       <Parallax bodyHeight={bodyHeight} />
       <Outlet
         // context={{
