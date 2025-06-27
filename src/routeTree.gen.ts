@@ -17,7 +17,57 @@ import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/
 import { Route as PianosGraciasPorContactarIndexRouteImport } from './routes/_pianos/gracias-por-contactar/index'
 import { Route as PianosContactaIndexRouteImport } from './routes/_pianos/contacta/index'
 import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/index'
+import { Route as PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria-gasteiz'
+import { Route as PianosTransportevariationsTrasladoDePianosEnVitoriaRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria'
+import { Route as PianosTransportevariationsTrasladoDePianosEnPamplonaRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-pamplona'
+import { Route as PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-miranda-de-ebro'
+import { Route as PianosTransportevariationsTrasladoDePianosEnLogroChar241oRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-logroño'
+import { Route as PianosTransportevariationsTrasladoDePianosEnLogronoRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-logrono'
+import { Route as PianosTransportevariationsTrasladoDePianosEnHaroRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-haro'
+import { Route as PianosTransportevariationsTrasladoDePianosEnGipuzkoaRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-gipuzkoa'
+import { Route as PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-castro-urdiales'
+import { Route as PianosTransportevariationsTrasladoDePianosEnBizkaiaRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-bizkaia'
+import { Route as PianosTransportevariationsTrasladoDePianosEnBilbaoRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-bilbao'
+import { Route as PianosTransportevariationsTrasladoDePianosEnAlavaRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos-en-alava'
+import { Route as PianosTransportevariationsTrasladoDePianosRouteImport } from './routes/_pianos/_transporte/(variations)/traslado-de-pianos'
+import { Route as PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria-gasteiz'
+import { Route as PianosTransportevariationsTransporteDePianosEnVitoriaRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria'
+import { Route as PianosTransportevariationsTransporteDePianosEnPamplonaRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-pamplona'
+import { Route as PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-miranda-de-ebro'
+import { Route as PianosTransportevariationsTransporteDePianosEnLogroChar241oRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-logroño'
+import { Route as PianosTransportevariationsTransporteDePianosEnLogronoRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-logrono'
+import { Route as PianosTransportevariationsTransporteDePianosEnHaroRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-haro'
+import { Route as PianosTransportevariationsTransporteDePianosEnGipuzkoaRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-gipuzkoa'
+import { Route as PianosTransportevariationsTransporteDePianosEnCastroUrdialesRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-castro-urdiales'
+import { Route as PianosTransportevariationsTransporteDePianosEnBizkaiaRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-bizkaia'
+import { Route as PianosTransportevariationsTransporteDePianosEnBilbaoRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-bilbao'
+import { Route as PianosTransportevariationsTransporteDePianosEnAlavaRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos-en-alava'
 import { Route as PianosTransportevariationsTransporteDePianosRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria-gasteiz'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-pamplona'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-miranda-de-ebro'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logroño'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logrono'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnHaroRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-haro'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-gipuzkoa'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-castro-urdiales'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bizkaia'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bilbao'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos-en-alava'
+import { Route as PianosReparacionvariationsReparaciChar243nDePianosRouteImport } from './routes/_pianos/_reparacion/(variations)/reparación-de-pianos'
+import { Route as PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria-gasteiz'
+import { Route as PianosReparacionvariationsReparacionDePianosEnVitoriaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria'
+import { Route as PianosReparacionvariationsReparacionDePianosEnPamplonaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-pamplona'
+import { Route as PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-miranda-de-ebro'
+import { Route as PianosReparacionvariationsReparacionDePianosEnLogroChar241oRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logroño'
+import { Route as PianosReparacionvariationsReparacionDePianosEnLogronoRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logrono'
+import { Route as PianosReparacionvariationsReparacionDePianosEnHaroRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-haro'
+import { Route as PianosReparacionvariationsReparacionDePianosEnGipuzkoaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-gipuzkoa'
+import { Route as PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-castro-urdiales'
+import { Route as PianosReparacionvariationsReparacionDePianosEnBizkaiaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bizkaia'
+import { Route as PianosReparacionvariationsReparacionDePianosEnBilbaoRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bilbao'
+import { Route as PianosReparacionvariationsReparacionDePianosEnAlavaRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-alava'
 import { Route as PianosReparacionvariationsReparacionDePianosRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos'
 import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz'
 import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria'
@@ -84,11 +134,345 @@ const PianosHomeIndexRoute = PianosHomeIndexRouteImport.update({
   path: '/',
   getParentRoute: () => PianosRoute,
 } as any)
+const PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute =
+  PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-vitoria-gasteiz',
+    path: '/traslado-de-pianos-en-vitoria-gasteiz',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnVitoriaRoute =
+  PianosTransportevariationsTrasladoDePianosEnVitoriaRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-vitoria',
+    path: '/traslado-de-pianos-en-vitoria',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnPamplonaRoute =
+  PianosTransportevariationsTrasladoDePianosEnPamplonaRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-pamplona',
+    path: '/traslado-de-pianos-en-pamplona',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute =
+  PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-miranda-de-ebro',
+    path: '/traslado-de-pianos-en-miranda-de-ebro',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute =
+  PianosTransportevariationsTrasladoDePianosEnLogroChar241oRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-logroño',
+    path: '/traslado-de-pianos-en-logroño',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnLogronoRoute =
+  PianosTransportevariationsTrasladoDePianosEnLogronoRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-logrono',
+    path: '/traslado-de-pianos-en-logrono',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnHaroRoute =
+  PianosTransportevariationsTrasladoDePianosEnHaroRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-haro',
+    path: '/traslado-de-pianos-en-haro',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute =
+  PianosTransportevariationsTrasladoDePianosEnGipuzkoaRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-gipuzkoa',
+    path: '/traslado-de-pianos-en-gipuzkoa',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute =
+  PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-castro-urdiales',
+    path: '/traslado-de-pianos-en-castro-urdiales',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute =
+  PianosTransportevariationsTrasladoDePianosEnBizkaiaRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-bizkaia',
+    path: '/traslado-de-pianos-en-bizkaia',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnBilbaoRoute =
+  PianosTransportevariationsTrasladoDePianosEnBilbaoRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-bilbao',
+    path: '/traslado-de-pianos-en-bilbao',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosEnAlavaRoute =
+  PianosTransportevariationsTrasladoDePianosEnAlavaRouteImport.update({
+    id: '/(variations)/traslado-de-pianos-en-alava',
+    path: '/traslado-de-pianos-en-alava',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTrasladoDePianosRoute =
+  PianosTransportevariationsTrasladoDePianosRouteImport.update({
+    id: '/(variations)/traslado-de-pianos',
+    path: '/traslado-de-pianos',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute =
+  PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRouteImport.update(
+    {
+      id: '/(variations)/transporte-de-pianos-en-vitoria-gasteiz',
+      path: '/transporte-de-pianos-en-vitoria-gasteiz',
+      getParentRoute: () => PianosTransporteRoute,
+    } as any,
+  )
+const PianosTransportevariationsTransporteDePianosEnVitoriaRoute =
+  PianosTransportevariationsTransporteDePianosEnVitoriaRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-vitoria',
+    path: '/transporte-de-pianos-en-vitoria',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnPamplonaRoute =
+  PianosTransportevariationsTransporteDePianosEnPamplonaRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-pamplona',
+    path: '/transporte-de-pianos-en-pamplona',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute =
+  PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRouteImport.update(
+    {
+      id: '/(variations)/transporte-de-pianos-en-miranda-de-ebro',
+      path: '/transporte-de-pianos-en-miranda-de-ebro',
+      getParentRoute: () => PianosTransporteRoute,
+    } as any,
+  )
+const PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute =
+  PianosTransportevariationsTransporteDePianosEnLogroChar241oRouteImport.update(
+    {
+      id: '/(variations)/transporte-de-pianos-en-logroño',
+      path: '/transporte-de-pianos-en-logroño',
+      getParentRoute: () => PianosTransporteRoute,
+    } as any,
+  )
+const PianosTransportevariationsTransporteDePianosEnLogronoRoute =
+  PianosTransportevariationsTransporteDePianosEnLogronoRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-logrono',
+    path: '/transporte-de-pianos-en-logrono',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnHaroRoute =
+  PianosTransportevariationsTransporteDePianosEnHaroRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-haro',
+    path: '/transporte-de-pianos-en-haro',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute =
+  PianosTransportevariationsTransporteDePianosEnGipuzkoaRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-gipuzkoa',
+    path: '/transporte-de-pianos-en-gipuzkoa',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute =
+  PianosTransportevariationsTransporteDePianosEnCastroUrdialesRouteImport.update(
+    {
+      id: '/(variations)/transporte-de-pianos-en-castro-urdiales',
+      path: '/transporte-de-pianos-en-castro-urdiales',
+      getParentRoute: () => PianosTransporteRoute,
+    } as any,
+  )
+const PianosTransportevariationsTransporteDePianosEnBizkaiaRoute =
+  PianosTransportevariationsTransporteDePianosEnBizkaiaRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-bizkaia',
+    path: '/transporte-de-pianos-en-bizkaia',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnBilbaoRoute =
+  PianosTransportevariationsTransporteDePianosEnBilbaoRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-bilbao',
+    path: '/transporte-de-pianos-en-bilbao',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosTransportevariationsTransporteDePianosEnAlavaRoute =
+  PianosTransportevariationsTransporteDePianosEnAlavaRouteImport.update({
+    id: '/(variations)/transporte-de-pianos-en-alava',
+    path: '/transporte-de-pianos-en-alava',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
 const PianosTransportevariationsTransporteDePianosRoute =
   PianosTransportevariationsTransporteDePianosRouteImport.update({
     id: '/(variations)/transporte-de-pianos',
     path: '/transporte-de-pianos',
     getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-vitoria-gasteiz',
+      path: '/reparación-de-pianos-en-vitoria-gasteiz',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-vitoria',
+      path: '/reparación-de-pianos-en-vitoria',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-pamplona',
+      path: '/reparación-de-pianos-en-pamplona',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-miranda-de-ebro',
+      path: '/reparación-de-pianos-en-miranda-de-ebro',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-logroño',
+      path: '/reparación-de-pianos-en-logroño',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-logrono',
+      path: '/reparación-de-pianos-en-logrono',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnHaroRouteImport.update({
+    id: '/(variations)/reparación-de-pianos-en-haro',
+    path: '/reparación-de-pianos-en-haro',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-gipuzkoa',
+      path: '/reparación-de-pianos-en-gipuzkoa',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-castro-urdiales',
+      path: '/reparación-de-pianos-en-castro-urdiales',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRouteImport.update(
+    {
+      id: '/(variations)/reparación-de-pianos-en-bizkaia',
+      path: '/reparación-de-pianos-en-bizkaia',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRouteImport.update({
+    id: '/(variations)/reparación-de-pianos-en-bilbao',
+    path: '/reparación-de-pianos-en-bilbao',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRouteImport.update({
+    id: '/(variations)/reparación-de-pianos-en-alava',
+    path: '/reparación-de-pianos-en-alava',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparaciChar243nDePianosRoute =
+  PianosReparacionvariationsReparaciChar243nDePianosRouteImport.update({
+    id: '/(variations)/reparación-de-pianos',
+    path: '/reparación-de-pianos',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute =
+  PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRouteImport.update(
+    {
+      id: '/(variations)/reparacion-de-pianos-en-vitoria-gasteiz',
+      path: '/reparacion-de-pianos-en-vitoria-gasteiz',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparacionDePianosEnVitoriaRoute =
+  PianosReparacionvariationsReparacionDePianosEnVitoriaRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-vitoria',
+    path: '/reparacion-de-pianos-en-vitoria',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnPamplonaRoute =
+  PianosReparacionvariationsReparacionDePianosEnPamplonaRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-pamplona',
+    path: '/reparacion-de-pianos-en-pamplona',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute =
+  PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRouteImport.update(
+    {
+      id: '/(variations)/reparacion-de-pianos-en-miranda-de-ebro',
+      path: '/reparacion-de-pianos-en-miranda-de-ebro',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute =
+  PianosReparacionvariationsReparacionDePianosEnLogroChar241oRouteImport.update(
+    {
+      id: '/(variations)/reparacion-de-pianos-en-logroño',
+      path: '/reparacion-de-pianos-en-logroño',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparacionDePianosEnLogronoRoute =
+  PianosReparacionvariationsReparacionDePianosEnLogronoRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-logrono',
+    path: '/reparacion-de-pianos-en-logrono',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnHaroRoute =
+  PianosReparacionvariationsReparacionDePianosEnHaroRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-haro',
+    path: '/reparacion-de-pianos-en-haro',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute =
+  PianosReparacionvariationsReparacionDePianosEnGipuzkoaRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-gipuzkoa',
+    path: '/reparacion-de-pianos-en-gipuzkoa',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute =
+  PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRouteImport.update(
+    {
+      id: '/(variations)/reparacion-de-pianos-en-castro-urdiales',
+      path: '/reparacion-de-pianos-en-castro-urdiales',
+      getParentRoute: () => PianosReparacionRoute,
+    } as any,
+  )
+const PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute =
+  PianosReparacionvariationsReparacionDePianosEnBizkaiaRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-bizkaia',
+    path: '/reparacion-de-pianos-en-bizkaia',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnBilbaoRoute =
+  PianosReparacionvariationsReparacionDePianosEnBilbaoRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-bilbao',
+    path: '/reparacion-de-pianos-en-bilbao',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosEnAlavaRoute =
+  PianosReparacionvariationsReparacionDePianosEnAlavaRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos-en-alava',
+    path: '/reparacion-de-pianos-en-alava',
+    getParentRoute: () => PianosReparacionRoute,
   } as any)
 const PianosReparacionvariationsReparacionDePianosRoute =
   PianosReparacionvariationsReparacionDePianosRouteImport.update({
@@ -293,7 +677,57 @@ export interface FileRoutesByFullPath {
   '/afinación-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute
   '/afinación-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute
   '/reparacion-de-pianos': typeof PianosReparacionvariationsReparacionDePianosRoute
+  '/reparacion-de-pianos-en-alava': typeof PianosReparacionvariationsReparacionDePianosEnAlavaRoute
+  '/reparacion-de-pianos-en-bilbao': typeof PianosReparacionvariationsReparacionDePianosEnBilbaoRoute
+  '/reparacion-de-pianos-en-bizkaia': typeof PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute
+  '/reparacion-de-pianos-en-castro-urdiales': typeof PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute
+  '/reparacion-de-pianos-en-gipuzkoa': typeof PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute
+  '/reparacion-de-pianos-en-haro': typeof PianosReparacionvariationsReparacionDePianosEnHaroRoute
+  '/reparacion-de-pianos-en-logrono': typeof PianosReparacionvariationsReparacionDePianosEnLogronoRoute
+  '/reparacion-de-pianos-en-logroño': typeof PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute
+  '/reparacion-de-pianos-en-miranda-de-ebro': typeof PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute
+  '/reparacion-de-pianos-en-pamplona': typeof PianosReparacionvariationsReparacionDePianosEnPamplonaRoute
+  '/reparacion-de-pianos-en-vitoria': typeof PianosReparacionvariationsReparacionDePianosEnVitoriaRoute
+  '/reparacion-de-pianos-en-vitoria-gasteiz': typeof PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute
+  '/reparación-de-pianos': typeof PianosReparacionvariationsReparaciChar243nDePianosRoute
+  '/reparación-de-pianos-en-alava': typeof PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute
+  '/reparación-de-pianos-en-bilbao': typeof PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute
+  '/reparación-de-pianos-en-bizkaia': typeof PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute
+  '/reparación-de-pianos-en-castro-urdiales': typeof PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute
+  '/reparación-de-pianos-en-gipuzkoa': typeof PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute
+  '/reparación-de-pianos-en-haro': typeof PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute
+  '/reparación-de-pianos-en-logrono': typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute
+  '/reparación-de-pianos-en-logroño': typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute
+  '/reparación-de-pianos-en-miranda-de-ebro': typeof PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute
+  '/reparación-de-pianos-en-pamplona': typeof PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute
+  '/reparación-de-pianos-en-vitoria': typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute
+  '/reparación-de-pianos-en-vitoria-gasteiz': typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute
   '/transporte-de-pianos': typeof PianosTransportevariationsTransporteDePianosRoute
+  '/transporte-de-pianos-en-alava': typeof PianosTransportevariationsTransporteDePianosEnAlavaRoute
+  '/transporte-de-pianos-en-bilbao': typeof PianosTransportevariationsTransporteDePianosEnBilbaoRoute
+  '/transporte-de-pianos-en-bizkaia': typeof PianosTransportevariationsTransporteDePianosEnBizkaiaRoute
+  '/transporte-de-pianos-en-castro-urdiales': typeof PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute
+  '/transporte-de-pianos-en-gipuzkoa': typeof PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute
+  '/transporte-de-pianos-en-haro': typeof PianosTransportevariationsTransporteDePianosEnHaroRoute
+  '/transporte-de-pianos-en-logrono': typeof PianosTransportevariationsTransporteDePianosEnLogronoRoute
+  '/transporte-de-pianos-en-logroño': typeof PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute
+  '/transporte-de-pianos-en-miranda-de-ebro': typeof PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute
+  '/transporte-de-pianos-en-pamplona': typeof PianosTransportevariationsTransporteDePianosEnPamplonaRoute
+  '/transporte-de-pianos-en-vitoria': typeof PianosTransportevariationsTransporteDePianosEnVitoriaRoute
+  '/transporte-de-pianos-en-vitoria-gasteiz': typeof PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute
+  '/traslado-de-pianos': typeof PianosTransportevariationsTrasladoDePianosRoute
+  '/traslado-de-pianos-en-alava': typeof PianosTransportevariationsTrasladoDePianosEnAlavaRoute
+  '/traslado-de-pianos-en-bilbao': typeof PianosTransportevariationsTrasladoDePianosEnBilbaoRoute
+  '/traslado-de-pianos-en-bizkaia': typeof PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute
+  '/traslado-de-pianos-en-castro-urdiales': typeof PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute
+  '/traslado-de-pianos-en-gipuzkoa': typeof PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute
+  '/traslado-de-pianos-en-haro': typeof PianosTransportevariationsTrasladoDePianosEnHaroRoute
+  '/traslado-de-pianos-en-logrono': typeof PianosTransportevariationsTrasladoDePianosEnLogronoRoute
+  '/traslado-de-pianos-en-logroño': typeof PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute
+  '/traslado-de-pianos-en-miranda-de-ebro': typeof PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute
+  '/traslado-de-pianos-en-pamplona': typeof PianosTransportevariationsTrasladoDePianosEnPamplonaRoute
+  '/traslado-de-pianos-en-vitoria': typeof PianosTransportevariationsTrasladoDePianosEnVitoriaRoute
+  '/traslado-de-pianos-en-vitoria-gasteiz': typeof PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute
 }
 export interface FileRoutesByTo {
   '/': typeof PianosHomeIndexRoute
@@ -327,7 +761,57 @@ export interface FileRoutesByTo {
   '/afinación-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute
   '/afinación-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute
   '/reparacion-de-pianos': typeof PianosReparacionvariationsReparacionDePianosRoute
+  '/reparacion-de-pianos-en-alava': typeof PianosReparacionvariationsReparacionDePianosEnAlavaRoute
+  '/reparacion-de-pianos-en-bilbao': typeof PianosReparacionvariationsReparacionDePianosEnBilbaoRoute
+  '/reparacion-de-pianos-en-bizkaia': typeof PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute
+  '/reparacion-de-pianos-en-castro-urdiales': typeof PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute
+  '/reparacion-de-pianos-en-gipuzkoa': typeof PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute
+  '/reparacion-de-pianos-en-haro': typeof PianosReparacionvariationsReparacionDePianosEnHaroRoute
+  '/reparacion-de-pianos-en-logrono': typeof PianosReparacionvariationsReparacionDePianosEnLogronoRoute
+  '/reparacion-de-pianos-en-logroño': typeof PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute
+  '/reparacion-de-pianos-en-miranda-de-ebro': typeof PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute
+  '/reparacion-de-pianos-en-pamplona': typeof PianosReparacionvariationsReparacionDePianosEnPamplonaRoute
+  '/reparacion-de-pianos-en-vitoria': typeof PianosReparacionvariationsReparacionDePianosEnVitoriaRoute
+  '/reparacion-de-pianos-en-vitoria-gasteiz': typeof PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute
+  '/reparación-de-pianos': typeof PianosReparacionvariationsReparaciChar243nDePianosRoute
+  '/reparación-de-pianos-en-alava': typeof PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute
+  '/reparación-de-pianos-en-bilbao': typeof PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute
+  '/reparación-de-pianos-en-bizkaia': typeof PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute
+  '/reparación-de-pianos-en-castro-urdiales': typeof PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute
+  '/reparación-de-pianos-en-gipuzkoa': typeof PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute
+  '/reparación-de-pianos-en-haro': typeof PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute
+  '/reparación-de-pianos-en-logrono': typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute
+  '/reparación-de-pianos-en-logroño': typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute
+  '/reparación-de-pianos-en-miranda-de-ebro': typeof PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute
+  '/reparación-de-pianos-en-pamplona': typeof PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute
+  '/reparación-de-pianos-en-vitoria': typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute
+  '/reparación-de-pianos-en-vitoria-gasteiz': typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute
   '/transporte-de-pianos': typeof PianosTransportevariationsTransporteDePianosRoute
+  '/transporte-de-pianos-en-alava': typeof PianosTransportevariationsTransporteDePianosEnAlavaRoute
+  '/transporte-de-pianos-en-bilbao': typeof PianosTransportevariationsTransporteDePianosEnBilbaoRoute
+  '/transporte-de-pianos-en-bizkaia': typeof PianosTransportevariationsTransporteDePianosEnBizkaiaRoute
+  '/transporte-de-pianos-en-castro-urdiales': typeof PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute
+  '/transporte-de-pianos-en-gipuzkoa': typeof PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute
+  '/transporte-de-pianos-en-haro': typeof PianosTransportevariationsTransporteDePianosEnHaroRoute
+  '/transporte-de-pianos-en-logrono': typeof PianosTransportevariationsTransporteDePianosEnLogronoRoute
+  '/transporte-de-pianos-en-logroño': typeof PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute
+  '/transporte-de-pianos-en-miranda-de-ebro': typeof PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute
+  '/transporte-de-pianos-en-pamplona': typeof PianosTransportevariationsTransporteDePianosEnPamplonaRoute
+  '/transporte-de-pianos-en-vitoria': typeof PianosTransportevariationsTransporteDePianosEnVitoriaRoute
+  '/transporte-de-pianos-en-vitoria-gasteiz': typeof PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute
+  '/traslado-de-pianos': typeof PianosTransportevariationsTrasladoDePianosRoute
+  '/traslado-de-pianos-en-alava': typeof PianosTransportevariationsTrasladoDePianosEnAlavaRoute
+  '/traslado-de-pianos-en-bilbao': typeof PianosTransportevariationsTrasladoDePianosEnBilbaoRoute
+  '/traslado-de-pianos-en-bizkaia': typeof PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute
+  '/traslado-de-pianos-en-castro-urdiales': typeof PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute
+  '/traslado-de-pianos-en-gipuzkoa': typeof PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute
+  '/traslado-de-pianos-en-haro': typeof PianosTransportevariationsTrasladoDePianosEnHaroRoute
+  '/traslado-de-pianos-en-logrono': typeof PianosTransportevariationsTrasladoDePianosEnLogronoRoute
+  '/traslado-de-pianos-en-logroño': typeof PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute
+  '/traslado-de-pianos-en-miranda-de-ebro': typeof PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute
+  '/traslado-de-pianos-en-pamplona': typeof PianosTransportevariationsTrasladoDePianosEnPamplonaRoute
+  '/traslado-de-pianos-en-vitoria': typeof PianosTransportevariationsTrasladoDePianosEnVitoriaRoute
+  '/traslado-de-pianos-en-vitoria-gasteiz': typeof PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -366,7 +850,57 @@ export interface FileRoutesById {
   '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute
   '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute
   '/_pianos/_reparacion/(variations)/reparacion-de-pianos': typeof PianosReparacionvariationsReparacionDePianosRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-alava': typeof PianosReparacionvariationsReparacionDePianosEnAlavaRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bilbao': typeof PianosReparacionvariationsReparacionDePianosEnBilbaoRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bizkaia': typeof PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-castro-urdiales': typeof PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-gipuzkoa': typeof PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-haro': typeof PianosReparacionvariationsReparacionDePianosEnHaroRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logrono': typeof PianosReparacionvariationsReparacionDePianosEnLogronoRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logroño': typeof PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-miranda-de-ebro': typeof PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-pamplona': typeof PianosReparacionvariationsReparacionDePianosEnPamplonaRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria': typeof PianosReparacionvariationsReparacionDePianosEnVitoriaRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria-gasteiz': typeof PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos': typeof PianosReparacionvariationsReparaciChar243nDePianosRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-alava': typeof PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bilbao': typeof PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bizkaia': typeof PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-castro-urdiales': typeof PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-gipuzkoa': typeof PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-haro': typeof PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logrono': typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logroño': typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-miranda-de-ebro': typeof PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-pamplona': typeof PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria': typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute
+  '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria-gasteiz': typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute
   '/_pianos/_transporte/(variations)/transporte-de-pianos': typeof PianosTransportevariationsTransporteDePianosRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-alava': typeof PianosTransportevariationsTransporteDePianosEnAlavaRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bilbao': typeof PianosTransportevariationsTransporteDePianosEnBilbaoRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bizkaia': typeof PianosTransportevariationsTransporteDePianosEnBizkaiaRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-castro-urdiales': typeof PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-gipuzkoa': typeof PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-haro': typeof PianosTransportevariationsTransporteDePianosEnHaroRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logrono': typeof PianosTransportevariationsTransporteDePianosEnLogronoRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logroño': typeof PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-miranda-de-ebro': typeof PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-pamplona': typeof PianosTransportevariationsTransporteDePianosEnPamplonaRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria': typeof PianosTransportevariationsTransporteDePianosEnVitoriaRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria-gasteiz': typeof PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos': typeof PianosTransportevariationsTrasladoDePianosRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-alava': typeof PianosTransportevariationsTrasladoDePianosEnAlavaRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bilbao': typeof PianosTransportevariationsTrasladoDePianosEnBilbaoRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bizkaia': typeof PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-castro-urdiales': typeof PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-gipuzkoa': typeof PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-haro': typeof PianosTransportevariationsTrasladoDePianosEnHaroRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logrono': typeof PianosTransportevariationsTrasladoDePianosEnLogronoRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logroño': typeof PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-miranda-de-ebro': typeof PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-pamplona': typeof PianosTransportevariationsTrasladoDePianosEnPamplonaRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria': typeof PianosTransportevariationsTrasladoDePianosEnVitoriaRoute
+  '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria-gasteiz': typeof PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -402,7 +936,57 @@ export interface FileRouteTypes {
     | '/afinación-de-pianos-en-vitoria'
     | '/afinación-de-pianos-en-vitoria-gasteiz'
     | '/reparacion-de-pianos'
+    | '/reparacion-de-pianos-en-alava'
+    | '/reparacion-de-pianos-en-bilbao'
+    | '/reparacion-de-pianos-en-bizkaia'
+    | '/reparacion-de-pianos-en-castro-urdiales'
+    | '/reparacion-de-pianos-en-gipuzkoa'
+    | '/reparacion-de-pianos-en-haro'
+    | '/reparacion-de-pianos-en-logrono'
+    | '/reparacion-de-pianos-en-logroño'
+    | '/reparacion-de-pianos-en-miranda-de-ebro'
+    | '/reparacion-de-pianos-en-pamplona'
+    | '/reparacion-de-pianos-en-vitoria'
+    | '/reparacion-de-pianos-en-vitoria-gasteiz'
+    | '/reparación-de-pianos'
+    | '/reparación-de-pianos-en-alava'
+    | '/reparación-de-pianos-en-bilbao'
+    | '/reparación-de-pianos-en-bizkaia'
+    | '/reparación-de-pianos-en-castro-urdiales'
+    | '/reparación-de-pianos-en-gipuzkoa'
+    | '/reparación-de-pianos-en-haro'
+    | '/reparación-de-pianos-en-logrono'
+    | '/reparación-de-pianos-en-logroño'
+    | '/reparación-de-pianos-en-miranda-de-ebro'
+    | '/reparación-de-pianos-en-pamplona'
+    | '/reparación-de-pianos-en-vitoria'
+    | '/reparación-de-pianos-en-vitoria-gasteiz'
     | '/transporte-de-pianos'
+    | '/transporte-de-pianos-en-alava'
+    | '/transporte-de-pianos-en-bilbao'
+    | '/transporte-de-pianos-en-bizkaia'
+    | '/transporte-de-pianos-en-castro-urdiales'
+    | '/transporte-de-pianos-en-gipuzkoa'
+    | '/transporte-de-pianos-en-haro'
+    | '/transporte-de-pianos-en-logrono'
+    | '/transporte-de-pianos-en-logroño'
+    | '/transporte-de-pianos-en-miranda-de-ebro'
+    | '/transporte-de-pianos-en-pamplona'
+    | '/transporte-de-pianos-en-vitoria'
+    | '/transporte-de-pianos-en-vitoria-gasteiz'
+    | '/traslado-de-pianos'
+    | '/traslado-de-pianos-en-alava'
+    | '/traslado-de-pianos-en-bilbao'
+    | '/traslado-de-pianos-en-bizkaia'
+    | '/traslado-de-pianos-en-castro-urdiales'
+    | '/traslado-de-pianos-en-gipuzkoa'
+    | '/traslado-de-pianos-en-haro'
+    | '/traslado-de-pianos-en-logrono'
+    | '/traslado-de-pianos-en-logroño'
+    | '/traslado-de-pianos-en-miranda-de-ebro'
+    | '/traslado-de-pianos-en-pamplona'
+    | '/traslado-de-pianos-en-vitoria'
+    | '/traslado-de-pianos-en-vitoria-gasteiz'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -436,7 +1020,57 @@ export interface FileRouteTypes {
     | '/afinación-de-pianos-en-vitoria'
     | '/afinación-de-pianos-en-vitoria-gasteiz'
     | '/reparacion-de-pianos'
+    | '/reparacion-de-pianos-en-alava'
+    | '/reparacion-de-pianos-en-bilbao'
+    | '/reparacion-de-pianos-en-bizkaia'
+    | '/reparacion-de-pianos-en-castro-urdiales'
+    | '/reparacion-de-pianos-en-gipuzkoa'
+    | '/reparacion-de-pianos-en-haro'
+    | '/reparacion-de-pianos-en-logrono'
+    | '/reparacion-de-pianos-en-logroño'
+    | '/reparacion-de-pianos-en-miranda-de-ebro'
+    | '/reparacion-de-pianos-en-pamplona'
+    | '/reparacion-de-pianos-en-vitoria'
+    | '/reparacion-de-pianos-en-vitoria-gasteiz'
+    | '/reparación-de-pianos'
+    | '/reparación-de-pianos-en-alava'
+    | '/reparación-de-pianos-en-bilbao'
+    | '/reparación-de-pianos-en-bizkaia'
+    | '/reparación-de-pianos-en-castro-urdiales'
+    | '/reparación-de-pianos-en-gipuzkoa'
+    | '/reparación-de-pianos-en-haro'
+    | '/reparación-de-pianos-en-logrono'
+    | '/reparación-de-pianos-en-logroño'
+    | '/reparación-de-pianos-en-miranda-de-ebro'
+    | '/reparación-de-pianos-en-pamplona'
+    | '/reparación-de-pianos-en-vitoria'
+    | '/reparación-de-pianos-en-vitoria-gasteiz'
     | '/transporte-de-pianos'
+    | '/transporte-de-pianos-en-alava'
+    | '/transporte-de-pianos-en-bilbao'
+    | '/transporte-de-pianos-en-bizkaia'
+    | '/transporte-de-pianos-en-castro-urdiales'
+    | '/transporte-de-pianos-en-gipuzkoa'
+    | '/transporte-de-pianos-en-haro'
+    | '/transporte-de-pianos-en-logrono'
+    | '/transporte-de-pianos-en-logroño'
+    | '/transporte-de-pianos-en-miranda-de-ebro'
+    | '/transporte-de-pianos-en-pamplona'
+    | '/transporte-de-pianos-en-vitoria'
+    | '/transporte-de-pianos-en-vitoria-gasteiz'
+    | '/traslado-de-pianos'
+    | '/traslado-de-pianos-en-alava'
+    | '/traslado-de-pianos-en-bilbao'
+    | '/traslado-de-pianos-en-bizkaia'
+    | '/traslado-de-pianos-en-castro-urdiales'
+    | '/traslado-de-pianos-en-gipuzkoa'
+    | '/traslado-de-pianos-en-haro'
+    | '/traslado-de-pianos-en-logrono'
+    | '/traslado-de-pianos-en-logroño'
+    | '/traslado-de-pianos-en-miranda-de-ebro'
+    | '/traslado-de-pianos-en-pamplona'
+    | '/traslado-de-pianos-en-vitoria'
+    | '/traslado-de-pianos-en-vitoria-gasteiz'
   id:
     | '__root__'
     | '/_pianos'
@@ -474,7 +1108,57 @@ export interface FileRouteTypes {
     | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria'
     | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz'
     | '/_pianos/_reparacion/(variations)/reparacion-de-pianos'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-alava'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bilbao'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bizkaia'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-castro-urdiales'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-gipuzkoa'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-haro'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logrono'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logroño'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-miranda-de-ebro'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-pamplona'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria-gasteiz'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-alava'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bilbao'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bizkaia'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-castro-urdiales'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-gipuzkoa'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-haro'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logrono'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logroño'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-miranda-de-ebro'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-pamplona'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria'
+    | '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria-gasteiz'
     | '/_pianos/_transporte/(variations)/transporte-de-pianos'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-alava'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bilbao'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bizkaia'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-castro-urdiales'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-gipuzkoa'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-haro'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logrono'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logroño'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-miranda-de-ebro'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-pamplona'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria-gasteiz'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-alava'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bilbao'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bizkaia'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-castro-urdiales'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-gipuzkoa'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-haro'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logrono'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logroño'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-miranda-de-ebro'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-pamplona'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria'
+    | '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria-gasteiz'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -539,12 +1223,362 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosHomeIndexRouteImport
       parentRoute: typeof PianosRoute
     }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria-gasteiz': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria-gasteiz'
+      path: '/traslado-de-pianos-en-vitoria-gasteiz'
+      fullPath: '/traslado-de-pianos-en-vitoria-gasteiz'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-vitoria'
+      path: '/traslado-de-pianos-en-vitoria'
+      fullPath: '/traslado-de-pianos-en-vitoria'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnVitoriaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-pamplona': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-pamplona'
+      path: '/traslado-de-pianos-en-pamplona'
+      fullPath: '/traslado-de-pianos-en-pamplona'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnPamplonaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-miranda-de-ebro': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-miranda-de-ebro'
+      path: '/traslado-de-pianos-en-miranda-de-ebro'
+      fullPath: '/traslado-de-pianos-en-miranda-de-ebro'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logroño': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logroño'
+      path: '/traslado-de-pianos-en-logroño'
+      fullPath: '/traslado-de-pianos-en-logroño'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnLogroChar241oRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logrono': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-logrono'
+      path: '/traslado-de-pianos-en-logrono'
+      fullPath: '/traslado-de-pianos-en-logrono'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnLogronoRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-haro': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-haro'
+      path: '/traslado-de-pianos-en-haro'
+      fullPath: '/traslado-de-pianos-en-haro'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnHaroRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-gipuzkoa': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-gipuzkoa'
+      path: '/traslado-de-pianos-en-gipuzkoa'
+      fullPath: '/traslado-de-pianos-en-gipuzkoa'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnGipuzkoaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-castro-urdiales': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-castro-urdiales'
+      path: '/traslado-de-pianos-en-castro-urdiales'
+      fullPath: '/traslado-de-pianos-en-castro-urdiales'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bizkaia': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bizkaia'
+      path: '/traslado-de-pianos-en-bizkaia'
+      fullPath: '/traslado-de-pianos-en-bizkaia'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnBizkaiaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bilbao': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-bilbao'
+      path: '/traslado-de-pianos-en-bilbao'
+      fullPath: '/traslado-de-pianos-en-bilbao'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnBilbaoRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos-en-alava': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos-en-alava'
+      path: '/traslado-de-pianos-en-alava'
+      fullPath: '/traslado-de-pianos-en-alava'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosEnAlavaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/traslado-de-pianos': {
+      id: '/_pianos/_transporte/(variations)/traslado-de-pianos'
+      path: '/traslado-de-pianos'
+      fullPath: '/traslado-de-pianos'
+      preLoaderRoute: typeof PianosTransportevariationsTrasladoDePianosRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria-gasteiz': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria-gasteiz'
+      path: '/transporte-de-pianos-en-vitoria-gasteiz'
+      fullPath: '/transporte-de-pianos-en-vitoria-gasteiz'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-vitoria'
+      path: '/transporte-de-pianos-en-vitoria'
+      fullPath: '/transporte-de-pianos-en-vitoria'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnVitoriaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-pamplona': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-pamplona'
+      path: '/transporte-de-pianos-en-pamplona'
+      fullPath: '/transporte-de-pianos-en-pamplona'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnPamplonaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-miranda-de-ebro': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-miranda-de-ebro'
+      path: '/transporte-de-pianos-en-miranda-de-ebro'
+      fullPath: '/transporte-de-pianos-en-miranda-de-ebro'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logroño': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logroño'
+      path: '/transporte-de-pianos-en-logroño'
+      fullPath: '/transporte-de-pianos-en-logroño'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnLogroChar241oRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logrono': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-logrono'
+      path: '/transporte-de-pianos-en-logrono'
+      fullPath: '/transporte-de-pianos-en-logrono'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnLogronoRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-haro': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-haro'
+      path: '/transporte-de-pianos-en-haro'
+      fullPath: '/transporte-de-pianos-en-haro'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnHaroRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-gipuzkoa': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-gipuzkoa'
+      path: '/transporte-de-pianos-en-gipuzkoa'
+      fullPath: '/transporte-de-pianos-en-gipuzkoa'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnGipuzkoaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-castro-urdiales': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-castro-urdiales'
+      path: '/transporte-de-pianos-en-castro-urdiales'
+      fullPath: '/transporte-de-pianos-en-castro-urdiales'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnCastroUrdialesRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bizkaia': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bizkaia'
+      path: '/transporte-de-pianos-en-bizkaia'
+      fullPath: '/transporte-de-pianos-en-bizkaia'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnBizkaiaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bilbao': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-bilbao'
+      path: '/transporte-de-pianos-en-bilbao'
+      fullPath: '/transporte-de-pianos-en-bilbao'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnBilbaoRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos-en-alava': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos-en-alava'
+      path: '/transporte-de-pianos-en-alava'
+      fullPath: '/transporte-de-pianos-en-alava'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosEnAlavaRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
     '/_pianos/_transporte/(variations)/transporte-de-pianos': {
       id: '/_pianos/_transporte/(variations)/transporte-de-pianos'
       path: '/transporte-de-pianos'
       fullPath: '/transporte-de-pianos'
       preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosRouteImport
       parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria-gasteiz': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria-gasteiz'
+      path: '/reparación-de-pianos-en-vitoria-gasteiz'
+      fullPath: '/reparación-de-pianos-en-vitoria-gasteiz'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-vitoria'
+      path: '/reparación-de-pianos-en-vitoria'
+      fullPath: '/reparación-de-pianos-en-vitoria'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-pamplona': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-pamplona'
+      path: '/reparación-de-pianos-en-pamplona'
+      fullPath: '/reparación-de-pianos-en-pamplona'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-miranda-de-ebro': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-miranda-de-ebro'
+      path: '/reparación-de-pianos-en-miranda-de-ebro'
+      fullPath: '/reparación-de-pianos-en-miranda-de-ebro'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logroño': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logroño'
+      path: '/reparación-de-pianos-en-logroño'
+      fullPath: '/reparación-de-pianos-en-logroño'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logrono': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-logrono'
+      path: '/reparación-de-pianos-en-logrono'
+      fullPath: '/reparación-de-pianos-en-logrono'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-haro': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-haro'
+      path: '/reparación-de-pianos-en-haro'
+      fullPath: '/reparación-de-pianos-en-haro'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnHaroRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-gipuzkoa': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-gipuzkoa'
+      path: '/reparación-de-pianos-en-gipuzkoa'
+      fullPath: '/reparación-de-pianos-en-gipuzkoa'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-castro-urdiales': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-castro-urdiales'
+      path: '/reparación-de-pianos-en-castro-urdiales'
+      fullPath: '/reparación-de-pianos-en-castro-urdiales'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bizkaia': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bizkaia'
+      path: '/reparación-de-pianos-en-bizkaia'
+      fullPath: '/reparación-de-pianos-en-bizkaia'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bilbao': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-bilbao'
+      path: '/reparación-de-pianos-en-bilbao'
+      fullPath: '/reparación-de-pianos-en-bilbao'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-alava': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos-en-alava'
+      path: '/reparación-de-pianos-en-alava'
+      fullPath: '/reparación-de-pianos-en-alava'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparación-de-pianos': {
+      id: '/_pianos/_reparacion/(variations)/reparación-de-pianos'
+      path: '/reparación-de-pianos'
+      fullPath: '/reparación-de-pianos'
+      preLoaderRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria-gasteiz': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria-gasteiz'
+      path: '/reparacion-de-pianos-en-vitoria-gasteiz'
+      fullPath: '/reparacion-de-pianos-en-vitoria-gasteiz'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-vitoria'
+      path: '/reparacion-de-pianos-en-vitoria'
+      fullPath: '/reparacion-de-pianos-en-vitoria'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnVitoriaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-pamplona': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-pamplona'
+      path: '/reparacion-de-pianos-en-pamplona'
+      fullPath: '/reparacion-de-pianos-en-pamplona'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnPamplonaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-miranda-de-ebro': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-miranda-de-ebro'
+      path: '/reparacion-de-pianos-en-miranda-de-ebro'
+      fullPath: '/reparacion-de-pianos-en-miranda-de-ebro'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logroño': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logroño'
+      path: '/reparacion-de-pianos-en-logroño'
+      fullPath: '/reparacion-de-pianos-en-logroño'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnLogroChar241oRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logrono': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-logrono'
+      path: '/reparacion-de-pianos-en-logrono'
+      fullPath: '/reparacion-de-pianos-en-logrono'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnLogronoRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-haro': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-haro'
+      path: '/reparacion-de-pianos-en-haro'
+      fullPath: '/reparacion-de-pianos-en-haro'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnHaroRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-gipuzkoa': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-gipuzkoa'
+      path: '/reparacion-de-pianos-en-gipuzkoa'
+      fullPath: '/reparacion-de-pianos-en-gipuzkoa'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnGipuzkoaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-castro-urdiales': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-castro-urdiales'
+      path: '/reparacion-de-pianos-en-castro-urdiales'
+      fullPath: '/reparacion-de-pianos-en-castro-urdiales'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bizkaia': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bizkaia'
+      path: '/reparacion-de-pianos-en-bizkaia'
+      fullPath: '/reparacion-de-pianos-en-bizkaia'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnBizkaiaRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bilbao': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-bilbao'
+      path: '/reparacion-de-pianos-en-bilbao'
+      fullPath: '/reparacion-de-pianos-en-bilbao'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnBilbaoRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-alava': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos-en-alava'
+      path: '/reparacion-de-pianos-en-alava'
+      fullPath: '/reparacion-de-pianos-en-alava'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosEnAlavaRouteImport
+      parentRoute: typeof PianosReparacionRoute
     }
     '/_pianos/_reparacion/(variations)/reparacion-de-pianos': {
       id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos'
@@ -828,11 +1862,86 @@ const PianosAfinacionRouteWithChildren = PianosAfinacionRoute._addFileChildren(
 
 interface PianosReparacionRouteChildren {
   PianosReparacionvariationsReparacionDePianosRoute: typeof PianosReparacionvariationsReparacionDePianosRoute
+  PianosReparacionvariationsReparacionDePianosEnAlavaRoute: typeof PianosReparacionvariationsReparacionDePianosEnAlavaRoute
+  PianosReparacionvariationsReparacionDePianosEnBilbaoRoute: typeof PianosReparacionvariationsReparacionDePianosEnBilbaoRoute
+  PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute: typeof PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute
+  PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute: typeof PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute
+  PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute: typeof PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute
+  PianosReparacionvariationsReparacionDePianosEnHaroRoute: typeof PianosReparacionvariationsReparacionDePianosEnHaroRoute
+  PianosReparacionvariationsReparacionDePianosEnLogronoRoute: typeof PianosReparacionvariationsReparacionDePianosEnLogronoRoute
+  PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute: typeof PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute
+  PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute: typeof PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute
+  PianosReparacionvariationsReparacionDePianosEnPamplonaRoute: typeof PianosReparacionvariationsReparacionDePianosEnPamplonaRoute
+  PianosReparacionvariationsReparacionDePianosEnVitoriaRoute: typeof PianosReparacionvariationsReparacionDePianosEnVitoriaRoute
+  PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute: typeof PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute
+  PianosReparacionvariationsReparaciChar243nDePianosRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute
+  PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute: typeof PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute
 }
 
 const PianosReparacionRouteChildren: PianosReparacionRouteChildren = {
   PianosReparacionvariationsReparacionDePianosRoute:
     PianosReparacionvariationsReparacionDePianosRoute,
+  PianosReparacionvariationsReparacionDePianosEnAlavaRoute:
+    PianosReparacionvariationsReparacionDePianosEnAlavaRoute,
+  PianosReparacionvariationsReparacionDePianosEnBilbaoRoute:
+    PianosReparacionvariationsReparacionDePianosEnBilbaoRoute,
+  PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute:
+    PianosReparacionvariationsReparacionDePianosEnBizkaiaRoute,
+  PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute:
+    PianosReparacionvariationsReparacionDePianosEnCastroUrdialesRoute,
+  PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute:
+    PianosReparacionvariationsReparacionDePianosEnGipuzkoaRoute,
+  PianosReparacionvariationsReparacionDePianosEnHaroRoute:
+    PianosReparacionvariationsReparacionDePianosEnHaroRoute,
+  PianosReparacionvariationsReparacionDePianosEnLogronoRoute:
+    PianosReparacionvariationsReparacionDePianosEnLogronoRoute,
+  PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute:
+    PianosReparacionvariationsReparacionDePianosEnLogroChar241oRoute,
+  PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute:
+    PianosReparacionvariationsReparacionDePianosEnMirandaDeEbroRoute,
+  PianosReparacionvariationsReparacionDePianosEnPamplonaRoute:
+    PianosReparacionvariationsReparacionDePianosEnPamplonaRoute,
+  PianosReparacionvariationsReparacionDePianosEnVitoriaRoute:
+    PianosReparacionvariationsReparacionDePianosEnVitoriaRoute,
+  PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute:
+    PianosReparacionvariationsReparacionDePianosEnVitoriaGasteizRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnAlavaRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnBilbaoRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnBizkaiaRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnCastroUrdialesRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnGipuzkoaRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnHaroRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnLogronoRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnLogroChar241oRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnMirandaDeEbroRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnPamplonaRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaRoute,
+  PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute:
+    PianosReparacionvariationsReparaciChar243nDePianosEnVitoriaGasteizRoute,
 }
 
 const PianosReparacionRouteWithChildren =
@@ -840,11 +1949,86 @@ const PianosReparacionRouteWithChildren =
 
 interface PianosTransporteRouteChildren {
   PianosTransportevariationsTransporteDePianosRoute: typeof PianosTransportevariationsTransporteDePianosRoute
+  PianosTransportevariationsTransporteDePianosEnAlavaRoute: typeof PianosTransportevariationsTransporteDePianosEnAlavaRoute
+  PianosTransportevariationsTransporteDePianosEnBilbaoRoute: typeof PianosTransportevariationsTransporteDePianosEnBilbaoRoute
+  PianosTransportevariationsTransporteDePianosEnBizkaiaRoute: typeof PianosTransportevariationsTransporteDePianosEnBizkaiaRoute
+  PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute: typeof PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute
+  PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute: typeof PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute
+  PianosTransportevariationsTransporteDePianosEnHaroRoute: typeof PianosTransportevariationsTransporteDePianosEnHaroRoute
+  PianosTransportevariationsTransporteDePianosEnLogronoRoute: typeof PianosTransportevariationsTransporteDePianosEnLogronoRoute
+  PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute: typeof PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute
+  PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute: typeof PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute
+  PianosTransportevariationsTransporteDePianosEnPamplonaRoute: typeof PianosTransportevariationsTransporteDePianosEnPamplonaRoute
+  PianosTransportevariationsTransporteDePianosEnVitoriaRoute: typeof PianosTransportevariationsTransporteDePianosEnVitoriaRoute
+  PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute: typeof PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute
+  PianosTransportevariationsTrasladoDePianosRoute: typeof PianosTransportevariationsTrasladoDePianosRoute
+  PianosTransportevariationsTrasladoDePianosEnAlavaRoute: typeof PianosTransportevariationsTrasladoDePianosEnAlavaRoute
+  PianosTransportevariationsTrasladoDePianosEnBilbaoRoute: typeof PianosTransportevariationsTrasladoDePianosEnBilbaoRoute
+  PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute: typeof PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute
+  PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute: typeof PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute
+  PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute: typeof PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute
+  PianosTransportevariationsTrasladoDePianosEnHaroRoute: typeof PianosTransportevariationsTrasladoDePianosEnHaroRoute
+  PianosTransportevariationsTrasladoDePianosEnLogronoRoute: typeof PianosTransportevariationsTrasladoDePianosEnLogronoRoute
+  PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute: typeof PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute
+  PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute: typeof PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute
+  PianosTransportevariationsTrasladoDePianosEnPamplonaRoute: typeof PianosTransportevariationsTrasladoDePianosEnPamplonaRoute
+  PianosTransportevariationsTrasladoDePianosEnVitoriaRoute: typeof PianosTransportevariationsTrasladoDePianosEnVitoriaRoute
+  PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute: typeof PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute
 }
 
 const PianosTransporteRouteChildren: PianosTransporteRouteChildren = {
   PianosTransportevariationsTransporteDePianosRoute:
     PianosTransportevariationsTransporteDePianosRoute,
+  PianosTransportevariationsTransporteDePianosEnAlavaRoute:
+    PianosTransportevariationsTransporteDePianosEnAlavaRoute,
+  PianosTransportevariationsTransporteDePianosEnBilbaoRoute:
+    PianosTransportevariationsTransporteDePianosEnBilbaoRoute,
+  PianosTransportevariationsTransporteDePianosEnBizkaiaRoute:
+    PianosTransportevariationsTransporteDePianosEnBizkaiaRoute,
+  PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute:
+    PianosTransportevariationsTransporteDePianosEnCastroUrdialesRoute,
+  PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute:
+    PianosTransportevariationsTransporteDePianosEnGipuzkoaRoute,
+  PianosTransportevariationsTransporteDePianosEnHaroRoute:
+    PianosTransportevariationsTransporteDePianosEnHaroRoute,
+  PianosTransportevariationsTransporteDePianosEnLogronoRoute:
+    PianosTransportevariationsTransporteDePianosEnLogronoRoute,
+  PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute:
+    PianosTransportevariationsTransporteDePianosEnLogroChar241oRoute,
+  PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute:
+    PianosTransportevariationsTransporteDePianosEnMirandaDeEbroRoute,
+  PianosTransportevariationsTransporteDePianosEnPamplonaRoute:
+    PianosTransportevariationsTransporteDePianosEnPamplonaRoute,
+  PianosTransportevariationsTransporteDePianosEnVitoriaRoute:
+    PianosTransportevariationsTransporteDePianosEnVitoriaRoute,
+  PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute:
+    PianosTransportevariationsTransporteDePianosEnVitoriaGasteizRoute,
+  PianosTransportevariationsTrasladoDePianosRoute:
+    PianosTransportevariationsTrasladoDePianosRoute,
+  PianosTransportevariationsTrasladoDePianosEnAlavaRoute:
+    PianosTransportevariationsTrasladoDePianosEnAlavaRoute,
+  PianosTransportevariationsTrasladoDePianosEnBilbaoRoute:
+    PianosTransportevariationsTrasladoDePianosEnBilbaoRoute,
+  PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute:
+    PianosTransportevariationsTrasladoDePianosEnBizkaiaRoute,
+  PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute:
+    PianosTransportevariationsTrasladoDePianosEnCastroUrdialesRoute,
+  PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute:
+    PianosTransportevariationsTrasladoDePianosEnGipuzkoaRoute,
+  PianosTransportevariationsTrasladoDePianosEnHaroRoute:
+    PianosTransportevariationsTrasladoDePianosEnHaroRoute,
+  PianosTransportevariationsTrasladoDePianosEnLogronoRoute:
+    PianosTransportevariationsTrasladoDePianosEnLogronoRoute,
+  PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute:
+    PianosTransportevariationsTrasladoDePianosEnLogroChar241oRoute,
+  PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute:
+    PianosTransportevariationsTrasladoDePianosEnMirandaDeEbroRoute,
+  PianosTransportevariationsTrasladoDePianosEnPamplonaRoute:
+    PianosTransportevariationsTrasladoDePianosEnPamplonaRoute,
+  PianosTransportevariationsTrasladoDePianosEnVitoriaRoute:
+    PianosTransportevariationsTrasladoDePianosEnVitoriaRoute,
+  PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute:
+    PianosTransportevariationsTrasladoDePianosEnVitoriaGasteizRoute,
 }
 
 const PianosTransporteRouteWithChildren =

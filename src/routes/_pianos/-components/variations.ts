@@ -92,7 +92,10 @@ const pathnameSplitter = (pathname: string) => {
     case "pamplona":
       place = "Pamplona";
       break;
-    case "logro%C3%B1o":
+    // case "logro%F1o":
+    //   place = "Logroño";
+    //   break;
+    case "logroño":
       place = "Logroño";
       break;
     case "logrono":
