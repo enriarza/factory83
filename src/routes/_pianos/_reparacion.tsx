@@ -1,10 +1,11 @@
 import { useLocation } from "@tanstack/react-router";
+//import type { MetaFunction } from "@remix-run/node";
 //import type { MetaFunction } from "@vercel/remix";
 import { createFileRoute } from '@tanstack/react-router'
-import Main from "./-main";
-import Header from "./-header";
-import Share from "../-components/share";
-import { pathnameSplitter } from "../-components/variations";
+import Main from "./_reparacion/-main";
+import Header from "./_reparacion/-header";
+import Share from "./-components/share";
+import { pathnameSplitter } from "./-components/variations";
 //import { useEffect } from "react";
 
 // export const meta: MetaFunction = ({ location }) => {
@@ -19,73 +20,53 @@ import { pathnameSplitter } from "../-components/variations";
 
 //     {
 //       name: "description",
-//       content: `Realizamos ${activity}s de pianos verticales, pianos de cola, pianos digitales, pianolas, clavecines, etc.`,
+//       content: `Realizamos reparaciones de pianos, sustitución de cuerdas rotas, muelles o fieltros deteriorados, teclas atascadas, etc.`,
 //     },
 //     {
 //       name: "keywords",
 //       content:
-//         "piano,pianos,pianolas,transporte,transportista,clavecin,verticales,cola,organos,traslados,traslado",
+//         "reparación,piano,pianos,reparar,arreglar,vertical,cola,tecnico-afinador,restauracion,restaurar,restaurador",
 //     },
 //     {
 //       property: "og:title",
-//       content: `${activity} de Pianos ${
+//       content: `Reparación de Pianos ${
 //         place ? "en " + place + " " : ""
 //       } - Enrique Arzamendi`,
 //     },
 //     {
 //       property: "og:description",
-//       content: `Realizamos ${activity}s de pianos verticales, pianos de cola, pianos digitales, pianolas, clavecines, etc.`,
+//       content: `Realizamos reparaciones de pianos, sustitución de cuerdas rotas, muelles o fieltros deteriorados, teclas atascadas, etc.`,
 //     },
 //     {
 //       property: "og:image",
 //       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/transportando-un-piano-vertical.jpg&amp;w=540&amp;q=75",
+//         "https://enriquearzamendi.com/_vercel/image?url=/sustitucion-de-una-cuerda-rota.jpg&amp;w=540&amp;q=75",
 //     },
 //     {
 //       property: "og:image",
 //       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/piano-de-cola.jpg&amp;w=540&amp;q=75",
+//         "https://enriquearzamendi.com/_vercel/image?url=/cambiando-un-eje-de-la-maquinaria.jpg&amp;w=540&amp;q=75",
 //     },
 //     {
 //       property: "og:image",
 //       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/piano-digital.jpg&amp;w=540&amp;q=75",
+//         "https://enriquearzamendi.com/_vercel/image?url=/instalacion-de-aplacados-nuevos-en-el-teclado.jpg&amp;w=540&amp;q=75",
 //     },
 //     {
 //       property: "og:image",
 //       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/pianola.jpg&amp;w=540&amp;q=75",
-//     },
-//     {
-//       property: "og:image",
-//       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/clavicembalo.jpg&amp;w=540&amp;q=75",
-//     },
-//     {
-//       property: "og:image",
-//       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/organo-positivo.jpg&amp;w=540&amp;q=75",
-//     },
-//     {
-//       property: "og:image",
-//       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/protector-de-ruedas.jpg&amp;w=540&amp;q=75",
-//     },
-//     {
-//       property: "og:image",
-//       content:
-//         "https://enriquearzamendi.com/_vercel/image?url=/transporte-de-un-piano-de-cola-utilizando-una-grua.jpg&amp;w=540&amp;q=75",
+//         "https://enriquearzamendi.com/_vercel/image?url=/piano-de-cola-tras-ser-restaurado.jpg&amp;w=540&amp;q=75",
 //     },
 //     {
 //       property: "og:url",
-//       content: `https://enriquearzamendi.com/${activity}-de-pianos${
+//       content: `https://enriquearzamendi.com/reparacion-de-pianos${
 //         place ? "-en-" + place : ""
 //       }`,
 //     },
 //   ];
 // };
 
-const Transporte = () => {
+export const Reparacion = () => {
   // const { setBodyHeight, Share } = useOutletContext<{
   //   setBodyHeight: React.Dispatch<React.SetStateAction<number>>;
   //   Share: () => JSX.Element;
@@ -119,6 +100,6 @@ const Transporte = () => {
   );
 };
 
-export const Route = createFileRoute('/_pianos/transporte/')({
-  component: Transporte,
+export const Route = createFileRoute('/_pianos/_reparacion')({
+  component: Reparacion,
 })

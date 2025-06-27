@@ -13,8 +13,8 @@ const territories = {
 
 const pagesList = {
   Inicio: "/",
-  "Afinación de Pianos": "/afinación-de-pianos",
-  "Reparación de Pianos": "/reparación-de-pianos",
+  "Afinación de Pianos": "/afinacion-de-pianos",
+  "Reparación de Pianos": "/reparacion-de-pianos",
   "Transporte de Pianos": "/transporte-de-pianos",
   "Nuestra Empresa": "/nuestra-empresa",
   Contacta: "/contacta",
@@ -38,7 +38,7 @@ const pathnameSplitter = (pathname: string) => {
   const urlActivity = pathname.slice(1, pathname.indexOf("-"));
   let activity;
   switch (urlActivity) {
-    // case "afinaci%F3n":
+    // case "afinaci%C3%B3n":
     //   activity = "Afinación";
     //   break;
     case "afinación":

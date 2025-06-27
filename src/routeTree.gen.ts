@@ -10,14 +10,39 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PianosRouteImport } from './routes/_pianos'
+import { Route as PianosTransporteRouteImport } from './routes/_pianos/_transporte'
+import { Route as PianosReparacionRouteImport } from './routes/_pianos/_reparacion'
 import { Route as PianosAfinacionRouteImport } from './routes/_pianos/_afinacion'
-import { Route as PianosTransporteIndexRouteImport } from './routes/_pianos/transporte/index'
-import { Route as PianosReparacionIndexRouteImport } from './routes/_pianos/reparacion/index'
 import { Route as PianosNuestraEmpresaIndexRouteImport } from './routes/_pianos/nuestra-empresa/index'
 import { Route as PianosGraciasPorContactarIndexRouteImport } from './routes/_pianos/gracias-por-contactar/index'
 import { Route as PianosContactaIndexRouteImport } from './routes/_pianos/contacta/index'
 import { Route as PianosHomeIndexRouteImport } from './routes/_pianos/_home/index'
+import { Route as PianosTransportevariationsTransporteDePianosRouteImport } from './routes/_pianos/_transporte/(variations)/transporte-de-pianos'
+import { Route as PianosReparacionvariationsReparacionDePianosRouteImport } from './routes/_pianos/_reparacion/(variations)/reparacion-de-pianos'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-pamplona'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-miranda-de-ebro'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logroño'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logrono'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-haro'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-gipuzkoa'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-castro-urdiales'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bizkaia'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bilbao'
+import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos-en-alava'
 import { Route as PianosAfinacionvariationsAfinaciChar243nDePianosRouteImport } from './routes/_pianos/_afinacion/(variations)/afinación-de-pianos'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria-gasteiz'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnVitoriaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnPamplonaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-pamplona'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-miranda-de-ebro'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logroño'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnLogronoRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logrono'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnHaroRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-haro'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-gipuzkoa'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-castro-urdiales'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bizkaia'
+import { Route as PianosAfinacionvariationsAfinacionDePianosEnBilbaoRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bilbao'
 import { Route as PianosAfinacionvariationsAfinacionDePianosEnAlavaRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava'
 import { Route as PianosAfinacionvariationsAfinacionDePianosRouteImport } from './routes/_pianos/_afinacion/(variations)/afinacion-de-pianos'
 
@@ -25,18 +50,16 @@ const PianosRoute = PianosRouteImport.update({
   id: '/_pianos',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PianosTransporteRoute = PianosTransporteRouteImport.update({
+  id: '/_transporte',
+  getParentRoute: () => PianosRoute,
+} as any)
+const PianosReparacionRoute = PianosReparacionRouteImport.update({
+  id: '/_reparacion',
+  getParentRoute: () => PianosRoute,
+} as any)
 const PianosAfinacionRoute = PianosAfinacionRouteImport.update({
   id: '/_afinacion',
-  getParentRoute: () => PianosRoute,
-} as any)
-const PianosTransporteIndexRoute = PianosTransporteIndexRouteImport.update({
-  id: '/transporte/',
-  path: '/transporte/',
-  getParentRoute: () => PianosRoute,
-} as any)
-const PianosReparacionIndexRoute = PianosReparacionIndexRouteImport.update({
-  id: '/reparacion/',
-  path: '/reparacion/',
   getParentRoute: () => PianosRoute,
 } as any)
 const PianosNuestraEmpresaIndexRoute =
@@ -61,10 +84,168 @@ const PianosHomeIndexRoute = PianosHomeIndexRouteImport.update({
   path: '/',
   getParentRoute: () => PianosRoute,
 } as any)
+const PianosTransportevariationsTransporteDePianosRoute =
+  PianosTransportevariationsTransporteDePianosRouteImport.update({
+    id: '/(variations)/transporte-de-pianos',
+    path: '/transporte-de-pianos',
+    getParentRoute: () => PianosTransporteRoute,
+  } as any)
+const PianosReparacionvariationsReparacionDePianosRoute =
+  PianosReparacionvariationsReparacionDePianosRouteImport.update({
+    id: '/(variations)/reparacion-de-pianos',
+    path: '/reparacion-de-pianos',
+    getParentRoute: () => PianosReparacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRouteImport.update(
+    {
+      id: '/(variations)/afinación-de-pianos-en-vitoria-gasteiz',
+      path: '/afinación-de-pianos-en-vitoria-gasteiz',
+      getParentRoute: () => PianosAfinacionRoute,
+    } as any,
+  )
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-vitoria',
+    path: '/afinación-de-pianos-en-vitoria',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-pamplona',
+    path: '/afinación-de-pianos-en-pamplona',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRouteImport.update(
+    {
+      id: '/(variations)/afinación-de-pianos-en-miranda-de-ebro',
+      path: '/afinación-de-pianos-en-miranda-de-ebro',
+      getParentRoute: () => PianosAfinacionRoute,
+    } as any,
+  )
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRouteImport.update(
+    {
+      id: '/(variations)/afinación-de-pianos-en-logroño',
+      path: '/afinación-de-pianos-en-logroño',
+      getParentRoute: () => PianosAfinacionRoute,
+    } as any,
+  )
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-logrono',
+    path: '/afinación-de-pianos-en-logrono',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-haro',
+    path: '/afinación-de-pianos-en-haro',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-gipuzkoa',
+    path: '/afinación-de-pianos-en-gipuzkoa',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRouteImport.update(
+    {
+      id: '/(variations)/afinación-de-pianos-en-castro-urdiales',
+      path: '/afinación-de-pianos-en-castro-urdiales',
+      getParentRoute: () => PianosAfinacionRoute,
+    } as any,
+  )
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-bizkaia',
+    path: '/afinación-de-pianos-en-bizkaia',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-bilbao',
+    path: '/afinación-de-pianos-en-bilbao',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute =
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRouteImport.update({
+    id: '/(variations)/afinación-de-pianos-en-alava',
+    path: '/afinación-de-pianos-en-alava',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
 const PianosAfinacionvariationsAfinaciChar243nDePianosRoute =
   PianosAfinacionvariationsAfinaciChar243nDePianosRouteImport.update({
     id: '/(variations)/afinación-de-pianos',
     path: '/afinación-de-pianos',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-vitoria-gasteiz',
+    path: '/afinacion-de-pianos-en-vitoria-gasteiz',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnVitoriaRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-vitoria',
+    path: '/afinacion-de-pianos-en-vitoria',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnPamplonaRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-pamplona',
+    path: '/afinacion-de-pianos-en-pamplona',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-miranda-de-ebro',
+    path: '/afinacion-de-pianos-en-miranda-de-ebro',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-logroño',
+    path: '/afinacion-de-pianos-en-logroño',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnLogronoRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-logrono',
+    path: '/afinacion-de-pianos-en-logrono',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnHaroRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnHaroRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-haro',
+    path: '/afinacion-de-pianos-en-haro',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-gipuzkoa',
+    path: '/afinacion-de-pianos-en-gipuzkoa',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-castro-urdiales',
+    path: '/afinacion-de-pianos-en-castro-urdiales',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-bizkaia',
+    path: '/afinacion-de-pianos-en-bizkaia',
+    getParentRoute: () => PianosAfinacionRoute,
+  } as any)
+const PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute =
+  PianosAfinacionvariationsAfinacionDePianosEnBilbaoRouteImport.update({
+    id: '/(variations)/afinacion-de-pianos-en-bilbao',
+    path: '/afinacion-de-pianos-en-bilbao',
     getParentRoute: () => PianosAfinacionRoute,
   } as any)
 const PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute =
@@ -85,36 +266,107 @@ export interface FileRoutesByFullPath {
   '/contacta': typeof PianosContactaIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
-  '/reparacion': typeof PianosReparacionIndexRoute
-  '/transporte': typeof PianosTransporteIndexRoute
   '/afinacion-de-pianos': typeof PianosAfinacionvariationsAfinacionDePianosRoute
   '/afinacion-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  '/afinacion-de-pianos-en-bilbao': typeof PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute
+  '/afinacion-de-pianos-en-bizkaia': typeof PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute
+  '/afinacion-de-pianos-en-castro-urdiales': typeof PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute
+  '/afinacion-de-pianos-en-gipuzkoa': typeof PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute
+  '/afinacion-de-pianos-en-haro': typeof PianosAfinacionvariationsAfinacionDePianosEnHaroRoute
+  '/afinacion-de-pianos-en-logrono': typeof PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute
+  '/afinacion-de-pianos-en-logroño': typeof PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute
+  '/afinacion-de-pianos-en-miranda-de-ebro': typeof PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute
+  '/afinacion-de-pianos-en-pamplona': typeof PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute
+  '/afinacion-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute
+  '/afinacion-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute
   '/afinación-de-pianos': typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
+  '/afinación-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute
+  '/afinación-de-pianos-en-bilbao': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute
+  '/afinación-de-pianos-en-bizkaia': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute
+  '/afinación-de-pianos-en-castro-urdiales': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute
+  '/afinación-de-pianos-en-gipuzkoa': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute
+  '/afinación-de-pianos-en-haro': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute
+  '/afinación-de-pianos-en-logrono': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute
+  '/afinación-de-pianos-en-logroño': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute
+  '/afinación-de-pianos-en-miranda-de-ebro': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute
+  '/afinación-de-pianos-en-pamplona': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute
+  '/afinación-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute
+  '/afinación-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute
+  '/reparacion-de-pianos': typeof PianosReparacionvariationsReparacionDePianosRoute
+  '/transporte-de-pianos': typeof PianosTransportevariationsTransporteDePianosRoute
 }
 export interface FileRoutesByTo {
   '/': typeof PianosHomeIndexRoute
   '/contacta': typeof PianosContactaIndexRoute
   '/gracias-por-contactar': typeof PianosGraciasPorContactarIndexRoute
   '/nuestra-empresa': typeof PianosNuestraEmpresaIndexRoute
-  '/reparacion': typeof PianosReparacionIndexRoute
-  '/transporte': typeof PianosTransporteIndexRoute
   '/afinacion-de-pianos': typeof PianosAfinacionvariationsAfinacionDePianosRoute
   '/afinacion-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  '/afinacion-de-pianos-en-bilbao': typeof PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute
+  '/afinacion-de-pianos-en-bizkaia': typeof PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute
+  '/afinacion-de-pianos-en-castro-urdiales': typeof PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute
+  '/afinacion-de-pianos-en-gipuzkoa': typeof PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute
+  '/afinacion-de-pianos-en-haro': typeof PianosAfinacionvariationsAfinacionDePianosEnHaroRoute
+  '/afinacion-de-pianos-en-logrono': typeof PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute
+  '/afinacion-de-pianos-en-logroño': typeof PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute
+  '/afinacion-de-pianos-en-miranda-de-ebro': typeof PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute
+  '/afinacion-de-pianos-en-pamplona': typeof PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute
+  '/afinacion-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute
+  '/afinacion-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute
   '/afinación-de-pianos': typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
+  '/afinación-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute
+  '/afinación-de-pianos-en-bilbao': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute
+  '/afinación-de-pianos-en-bizkaia': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute
+  '/afinación-de-pianos-en-castro-urdiales': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute
+  '/afinación-de-pianos-en-gipuzkoa': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute
+  '/afinación-de-pianos-en-haro': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute
+  '/afinación-de-pianos-en-logrono': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute
+  '/afinación-de-pianos-en-logroño': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute
+  '/afinación-de-pianos-en-miranda-de-ebro': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute
+  '/afinación-de-pianos-en-pamplona': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute
+  '/afinación-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute
+  '/afinación-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute
+  '/reparacion-de-pianos': typeof PianosReparacionvariationsReparacionDePianosRoute
+  '/transporte-de-pianos': typeof PianosTransportevariationsTransporteDePianosRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_pianos': typeof PianosRouteWithChildren
   '/_pianos/_afinacion': typeof PianosAfinacionRouteWithChildren
+  '/_pianos/_reparacion': typeof PianosReparacionRouteWithChildren
+  '/_pianos/_transporte': typeof PianosTransporteRouteWithChildren
   '/_pianos/_home/': typeof PianosHomeIndexRoute
   '/_pianos/contacta/': typeof PianosContactaIndexRoute
   '/_pianos/gracias-por-contactar/': typeof PianosGraciasPorContactarIndexRoute
   '/_pianos/nuestra-empresa/': typeof PianosNuestraEmpresaIndexRoute
-  '/_pianos/reparacion/': typeof PianosReparacionIndexRoute
-  '/_pianos/transporte/': typeof PianosTransporteIndexRoute
   '/_pianos/_afinacion/(variations)/afinacion-de-pianos': typeof PianosAfinacionvariationsAfinacionDePianosRoute
   '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bilbao': typeof PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bizkaia': typeof PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-castro-urdiales': typeof PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-gipuzkoa': typeof PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-haro': typeof PianosAfinacionvariationsAfinacionDePianosEnHaroRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logrono': typeof PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logroño': typeof PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-miranda-de-ebro': typeof PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-pamplona': typeof PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute
+  '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute
   '/_pianos/_afinacion/(variations)/afinación-de-pianos': typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-alava': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bilbao': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bizkaia': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-castro-urdiales': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-gipuzkoa': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-haro': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logrono': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logroño': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-miranda-de-ebro': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-pamplona': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute
+  '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz': typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute
+  '/_pianos/_reparacion/(variations)/reparacion-de-pianos': typeof PianosReparacionvariationsReparacionDePianosRoute
+  '/_pianos/_transporte/(variations)/transporte-de-pianos': typeof PianosTransportevariationsTransporteDePianosRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -123,35 +375,106 @@ export interface FileRouteTypes {
     | '/contacta'
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
-    | '/reparacion'
-    | '/transporte'
     | '/afinacion-de-pianos'
     | '/afinacion-de-pianos-en-alava'
+    | '/afinacion-de-pianos-en-bilbao'
+    | '/afinacion-de-pianos-en-bizkaia'
+    | '/afinacion-de-pianos-en-castro-urdiales'
+    | '/afinacion-de-pianos-en-gipuzkoa'
+    | '/afinacion-de-pianos-en-haro'
+    | '/afinacion-de-pianos-en-logrono'
+    | '/afinacion-de-pianos-en-logroño'
+    | '/afinacion-de-pianos-en-miranda-de-ebro'
+    | '/afinacion-de-pianos-en-pamplona'
+    | '/afinacion-de-pianos-en-vitoria'
+    | '/afinacion-de-pianos-en-vitoria-gasteiz'
     | '/afinación-de-pianos'
+    | '/afinación-de-pianos-en-alava'
+    | '/afinación-de-pianos-en-bilbao'
+    | '/afinación-de-pianos-en-bizkaia'
+    | '/afinación-de-pianos-en-castro-urdiales'
+    | '/afinación-de-pianos-en-gipuzkoa'
+    | '/afinación-de-pianos-en-haro'
+    | '/afinación-de-pianos-en-logrono'
+    | '/afinación-de-pianos-en-logroño'
+    | '/afinación-de-pianos-en-miranda-de-ebro'
+    | '/afinación-de-pianos-en-pamplona'
+    | '/afinación-de-pianos-en-vitoria'
+    | '/afinación-de-pianos-en-vitoria-gasteiz'
+    | '/reparacion-de-pianos'
+    | '/transporte-de-pianos'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/contacta'
     | '/gracias-por-contactar'
     | '/nuestra-empresa'
-    | '/reparacion'
-    | '/transporte'
     | '/afinacion-de-pianos'
     | '/afinacion-de-pianos-en-alava'
+    | '/afinacion-de-pianos-en-bilbao'
+    | '/afinacion-de-pianos-en-bizkaia'
+    | '/afinacion-de-pianos-en-castro-urdiales'
+    | '/afinacion-de-pianos-en-gipuzkoa'
+    | '/afinacion-de-pianos-en-haro'
+    | '/afinacion-de-pianos-en-logrono'
+    | '/afinacion-de-pianos-en-logroño'
+    | '/afinacion-de-pianos-en-miranda-de-ebro'
+    | '/afinacion-de-pianos-en-pamplona'
+    | '/afinacion-de-pianos-en-vitoria'
+    | '/afinacion-de-pianos-en-vitoria-gasteiz'
     | '/afinación-de-pianos'
+    | '/afinación-de-pianos-en-alava'
+    | '/afinación-de-pianos-en-bilbao'
+    | '/afinación-de-pianos-en-bizkaia'
+    | '/afinación-de-pianos-en-castro-urdiales'
+    | '/afinación-de-pianos-en-gipuzkoa'
+    | '/afinación-de-pianos-en-haro'
+    | '/afinación-de-pianos-en-logrono'
+    | '/afinación-de-pianos-en-logroño'
+    | '/afinación-de-pianos-en-miranda-de-ebro'
+    | '/afinación-de-pianos-en-pamplona'
+    | '/afinación-de-pianos-en-vitoria'
+    | '/afinación-de-pianos-en-vitoria-gasteiz'
+    | '/reparacion-de-pianos'
+    | '/transporte-de-pianos'
   id:
     | '__root__'
     | '/_pianos'
     | '/_pianos/_afinacion'
+    | '/_pianos/_reparacion'
+    | '/_pianos/_transporte'
     | '/_pianos/_home/'
     | '/_pianos/contacta/'
     | '/_pianos/gracias-por-contactar/'
     | '/_pianos/nuestra-empresa/'
-    | '/_pianos/reparacion/'
-    | '/_pianos/transporte/'
     | '/_pianos/_afinacion/(variations)/afinacion-de-pianos'
     | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bilbao'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bizkaia'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-castro-urdiales'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-gipuzkoa'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-haro'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logrono'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logroño'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-miranda-de-ebro'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-pamplona'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria'
+    | '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria-gasteiz'
     | '/_pianos/_afinacion/(variations)/afinación-de-pianos'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-alava'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bilbao'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bizkaia'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-castro-urdiales'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-gipuzkoa'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-haro'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logrono'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logroño'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-miranda-de-ebro'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-pamplona'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria'
+    | '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz'
+    | '/_pianos/_reparacion/(variations)/reparacion-de-pianos'
+    | '/_pianos/_transporte/(variations)/transporte-de-pianos'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -167,25 +490,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_pianos/_transporte': {
+      id: '/_pianos/_transporte'
+      path: ''
+      fullPath: ''
+      preLoaderRoute: typeof PianosTransporteRouteImport
+      parentRoute: typeof PianosRoute
+    }
+    '/_pianos/_reparacion': {
+      id: '/_pianos/_reparacion'
+      path: ''
+      fullPath: ''
+      preLoaderRoute: typeof PianosReparacionRouteImport
+      parentRoute: typeof PianosRoute
+    }
     '/_pianos/_afinacion': {
       id: '/_pianos/_afinacion'
       path: ''
       fullPath: ''
       preLoaderRoute: typeof PianosAfinacionRouteImport
-      parentRoute: typeof PianosRoute
-    }
-    '/_pianos/transporte/': {
-      id: '/_pianos/transporte/'
-      path: '/transporte'
-      fullPath: '/transporte'
-      preLoaderRoute: typeof PianosTransporteIndexRouteImport
-      parentRoute: typeof PianosRoute
-    }
-    '/_pianos/reparacion/': {
-      id: '/_pianos/reparacion/'
-      path: '/reparacion'
-      fullPath: '/reparacion'
-      preLoaderRoute: typeof PianosReparacionIndexRouteImport
       parentRoute: typeof PianosRoute
     }
     '/_pianos/nuestra-empresa/': {
@@ -216,11 +539,186 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PianosHomeIndexRouteImport
       parentRoute: typeof PianosRoute
     }
+    '/_pianos/_transporte/(variations)/transporte-de-pianos': {
+      id: '/_pianos/_transporte/(variations)/transporte-de-pianos'
+      path: '/transporte-de-pianos'
+      fullPath: '/transporte-de-pianos'
+      preLoaderRoute: typeof PianosTransportevariationsTransporteDePianosRouteImport
+      parentRoute: typeof PianosTransporteRoute
+    }
+    '/_pianos/_reparacion/(variations)/reparacion-de-pianos': {
+      id: '/_pianos/_reparacion/(variations)/reparacion-de-pianos'
+      path: '/reparacion-de-pianos'
+      fullPath: '/reparacion-de-pianos'
+      preLoaderRoute: typeof PianosReparacionvariationsReparacionDePianosRouteImport
+      parentRoute: typeof PianosReparacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria-gasteiz'
+      path: '/afinación-de-pianos-en-vitoria-gasteiz'
+      fullPath: '/afinación-de-pianos-en-vitoria-gasteiz'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-vitoria'
+      path: '/afinación-de-pianos-en-vitoria'
+      fullPath: '/afinación-de-pianos-en-vitoria'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-pamplona': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-pamplona'
+      path: '/afinación-de-pianos-en-pamplona'
+      fullPath: '/afinación-de-pianos-en-pamplona'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-miranda-de-ebro': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-miranda-de-ebro'
+      path: '/afinación-de-pianos-en-miranda-de-ebro'
+      fullPath: '/afinación-de-pianos-en-miranda-de-ebro'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logroño': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logroño'
+      path: '/afinación-de-pianos-en-logroño'
+      fullPath: '/afinación-de-pianos-en-logroño'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logrono': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-logrono'
+      path: '/afinación-de-pianos-en-logrono'
+      fullPath: '/afinación-de-pianos-en-logrono'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-haro': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-haro'
+      path: '/afinación-de-pianos-en-haro'
+      fullPath: '/afinación-de-pianos-en-haro'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-gipuzkoa': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-gipuzkoa'
+      path: '/afinación-de-pianos-en-gipuzkoa'
+      fullPath: '/afinación-de-pianos-en-gipuzkoa'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-castro-urdiales': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-castro-urdiales'
+      path: '/afinación-de-pianos-en-castro-urdiales'
+      fullPath: '/afinación-de-pianos-en-castro-urdiales'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bizkaia': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bizkaia'
+      path: '/afinación-de-pianos-en-bizkaia'
+      fullPath: '/afinación-de-pianos-en-bizkaia'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bilbao': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-bilbao'
+      path: '/afinación-de-pianos-en-bilbao'
+      fullPath: '/afinación-de-pianos-en-bilbao'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-alava': {
+      id: '/_pianos/_afinacion/(variations)/afinación-de-pianos-en-alava'
+      path: '/afinación-de-pianos-en-alava'
+      fullPath: '/afinación-de-pianos-en-alava'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
     '/_pianos/_afinacion/(variations)/afinación-de-pianos': {
       id: '/_pianos/_afinacion/(variations)/afinación-de-pianos'
       path: '/afinación-de-pianos'
       fullPath: '/afinación-de-pianos'
       preLoaderRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria-gasteiz': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria-gasteiz'
+      path: '/afinacion-de-pianos-en-vitoria-gasteiz'
+      fullPath: '/afinacion-de-pianos-en-vitoria-gasteiz'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-vitoria'
+      path: '/afinacion-de-pianos-en-vitoria'
+      fullPath: '/afinacion-de-pianos-en-vitoria'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-pamplona': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-pamplona'
+      path: '/afinacion-de-pianos-en-pamplona'
+      fullPath: '/afinacion-de-pianos-en-pamplona'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnPamplonaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-miranda-de-ebro': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-miranda-de-ebro'
+      path: '/afinacion-de-pianos-en-miranda-de-ebro'
+      fullPath: '/afinacion-de-pianos-en-miranda-de-ebro'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logroño': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logroño'
+      path: '/afinacion-de-pianos-en-logroño'
+      fullPath: '/afinacion-de-pianos-en-logroño'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logrono': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-logrono'
+      path: '/afinacion-de-pianos-en-logrono'
+      fullPath: '/afinacion-de-pianos-en-logrono'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnLogronoRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-haro': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-haro'
+      path: '/afinacion-de-pianos-en-haro'
+      fullPath: '/afinacion-de-pianos-en-haro'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnHaroRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-gipuzkoa': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-gipuzkoa'
+      path: '/afinacion-de-pianos-en-gipuzkoa'
+      fullPath: '/afinacion-de-pianos-en-gipuzkoa'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-castro-urdiales': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-castro-urdiales'
+      path: '/afinacion-de-pianos-en-castro-urdiales'
+      fullPath: '/afinacion-de-pianos-en-castro-urdiales'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bizkaia': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bizkaia'
+      path: '/afinacion-de-pianos-en-bizkaia'
+      fullPath: '/afinacion-de-pianos-en-bizkaia'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRouteImport
+      parentRoute: typeof PianosAfinacionRoute
+    }
+    '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bilbao': {
+      id: '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-bilbao'
+      path: '/afinacion-de-pianos-en-bilbao'
+      fullPath: '/afinacion-de-pianos-en-bilbao'
+      preLoaderRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnBilbaoRouteImport
       parentRoute: typeof PianosAfinacionRoute
     }
     '/_pianos/_afinacion/(variations)/afinacion-de-pianos-en-alava': {
@@ -243,7 +741,30 @@ declare module '@tanstack/react-router' {
 interface PianosAfinacionRouteChildren {
   PianosAfinacionvariationsAfinacionDePianosRoute: typeof PianosAfinacionvariationsAfinacionDePianosRoute
   PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute
+  PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute
+  PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute
+  PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute
+  PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute
+  PianosAfinacionvariationsAfinacionDePianosEnHaroRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnHaroRoute
+  PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute
+  PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute
+  PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute
+  PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute
+  PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute
+  PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute: typeof PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute
   PianosAfinacionvariationsAfinaciChar243nDePianosRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute: typeof PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute
 }
 
 const PianosAfinacionRouteChildren: PianosAfinacionRouteChildren = {
@@ -251,32 +772,102 @@ const PianosAfinacionRouteChildren: PianosAfinacionRouteChildren = {
     PianosAfinacionvariationsAfinacionDePianosRoute,
   PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute:
     PianosAfinacionvariationsAfinacionDePianosEnAlavaRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnBilbaoRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnBizkaiaRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnCastroUrdialesRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnGipuzkoaRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnHaroRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnHaroRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnLogronoRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnLogroChar241oRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnMirandaDeEbroRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnPamplonaRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnVitoriaRoute,
+  PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute:
+    PianosAfinacionvariationsAfinacionDePianosEnVitoriaGasteizRoute,
   PianosAfinacionvariationsAfinaciChar243nDePianosRoute:
     PianosAfinacionvariationsAfinaciChar243nDePianosRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnAlavaRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnBilbaoRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnBizkaiaRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnCastroUrdialesRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnGipuzkoaRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnHaroRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnLogronoRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnLogroChar241oRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnMirandaDeEbroRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnPamplonaRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaRoute,
+  PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute:
+    PianosAfinacionvariationsAfinaciChar243nDePianosEnVitoriaGasteizRoute,
 }
 
 const PianosAfinacionRouteWithChildren = PianosAfinacionRoute._addFileChildren(
   PianosAfinacionRouteChildren,
 )
 
+interface PianosReparacionRouteChildren {
+  PianosReparacionvariationsReparacionDePianosRoute: typeof PianosReparacionvariationsReparacionDePianosRoute
+}
+
+const PianosReparacionRouteChildren: PianosReparacionRouteChildren = {
+  PianosReparacionvariationsReparacionDePianosRoute:
+    PianosReparacionvariationsReparacionDePianosRoute,
+}
+
+const PianosReparacionRouteWithChildren =
+  PianosReparacionRoute._addFileChildren(PianosReparacionRouteChildren)
+
+interface PianosTransporteRouteChildren {
+  PianosTransportevariationsTransporteDePianosRoute: typeof PianosTransportevariationsTransporteDePianosRoute
+}
+
+const PianosTransporteRouteChildren: PianosTransporteRouteChildren = {
+  PianosTransportevariationsTransporteDePianosRoute:
+    PianosTransportevariationsTransporteDePianosRoute,
+}
+
+const PianosTransporteRouteWithChildren =
+  PianosTransporteRoute._addFileChildren(PianosTransporteRouteChildren)
+
 interface PianosRouteChildren {
   PianosAfinacionRoute: typeof PianosAfinacionRouteWithChildren
+  PianosReparacionRoute: typeof PianosReparacionRouteWithChildren
+  PianosTransporteRoute: typeof PianosTransporteRouteWithChildren
   PianosHomeIndexRoute: typeof PianosHomeIndexRoute
   PianosContactaIndexRoute: typeof PianosContactaIndexRoute
   PianosGraciasPorContactarIndexRoute: typeof PianosGraciasPorContactarIndexRoute
   PianosNuestraEmpresaIndexRoute: typeof PianosNuestraEmpresaIndexRoute
-  PianosReparacionIndexRoute: typeof PianosReparacionIndexRoute
-  PianosTransporteIndexRoute: typeof PianosTransporteIndexRoute
 }
 
 const PianosRouteChildren: PianosRouteChildren = {
   PianosAfinacionRoute: PianosAfinacionRouteWithChildren,
+  PianosReparacionRoute: PianosReparacionRouteWithChildren,
+  PianosTransporteRoute: PianosTransporteRouteWithChildren,
   PianosHomeIndexRoute: PianosHomeIndexRoute,
   PianosContactaIndexRoute: PianosContactaIndexRoute,
   PianosGraciasPorContactarIndexRoute: PianosGraciasPorContactarIndexRoute,
   PianosNuestraEmpresaIndexRoute: PianosNuestraEmpresaIndexRoute,
-  PianosReparacionIndexRoute: PianosReparacionIndexRoute,
-  PianosTransporteIndexRoute: PianosTransporteIndexRoute,
 }
 
 const PianosRouteWithChildren =
